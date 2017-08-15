@@ -577,7 +577,7 @@ body {
 .rizo-title{
     background-color: #f2f6fb;
     margin: 0 auto;
-    padding: 0 0 10px 0;
+    padding: 0 0 0 45px;
 }
 .rizo-slide img{
     display: block;
