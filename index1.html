@@ -15,7 +15,7 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/media.css" rel="stylesheet">
 </head>
-<?php include('head.php'); ?>
+<!--<?php include('head.php'); ?>-->
 <body>
 <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter37668145 = new Ya.Metrika({ id:37668145, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/37668145" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
     <div class="container-fluid">
@@ -114,6 +114,17 @@
                         </li>
                     </ul>
                 </div>  
+                <div class="feedback-contact">
+                                <h3>Остались вопросы?</h3>
+                                <form action="" method="POST" id="form">
+                                    <div id="result_div_id">
+                                    </div>
+                                    <input type="text" name="name" placeholder="Введите ваше имя" required="required">
+                                    <input type="tel" name="phone" placeholder="Введите ваш телефон" required="required">
+                                    <textarea name="question" placeholder="Текст вопроса" required="required"></textarea>
+                                    <button type="button"  onclick="AjaxFormRequest('result_div_id', 'form', 'mail.php')"><span><img src="img/ico/ico-download.png" alt=""></span><span>Отправить</span></button>
+                                </form>
+                            </div>
                 <div class="row promo">   
                <div class="rizo-slide clearfix col-xs-12 col-lg-12">
                             <img src="img/banner1.jpg" alt="Ризография">
@@ -563,6 +574,7 @@
                                         </tbody>
                                     </table>
                                 </div>
+                            </div>
                                 <div class="col-xs-12 col-lg-12">                                      
                         <h2><b>Ризография как дешевый способ оперативной печати.</b></h2>
                         <p class="calendars_content">
@@ -604,8 +616,9 @@
                         <p class="calendars_content">На сайте представлены фото уже выполненных заказов, отзывы клиентов, а также прайс на услуги. Для заказа вы можете позвонить или написать нам.</p>
                    </div>
 
-                        </div>
+                    
                     </div>
+                </div>
                 </div>
 <!--                <?php include('nav.php'); ?>-->
                     <div class="row header">
@@ -639,7 +652,6 @@
                         <a href="http://h1-studio.ru" target="_blank">Убедительно просим Вас проверять все макеты на наличие ошибок и неточностей. После отправки в печать, претензии по макетам не принимаются.</a>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

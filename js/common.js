@@ -15,13 +15,13 @@ function AjaxFormRequest(result_id,form_id,url) {
 }
 $(document).ready(function (){
     $('.feedback').on('click', function(){
-    $('.feedback-contact').fadeIn(300);
-    });
-    $(document).mouseup(function(e) {
-    var elem = $('.feedback-contact');
-    if (e.target != elem[0] && !elem.has(e.target).length) {
-    elem.fadeOut(300);
-    }
+        $('.feedback-contact').fadeIn(300);
+        });
+        $(document).mouseup(function(e) {
+        var elem = $('.feedback-contact');
+        if (e.target != elem[0] && !elem.has(e.target).length) {
+        elem.fadeOut(300);
+        }
     });
     $('.download-price').click(function() {
         yaCounter40969514.reachGoal('download_price');

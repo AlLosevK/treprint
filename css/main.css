@@ -273,11 +273,7 @@ body {
   background-color: #f2f6fb;
 }
 .content .about-us h2,
-.content .about-us h3,
-.rizo h2,
-.rizo h3,
-.prices-calendars h2,
-.prices-calendars h3{
+.content .about-us h3{
   font-family: "Futura PT Demi";
   font-size: 30px;
   padding-left: 30px;
