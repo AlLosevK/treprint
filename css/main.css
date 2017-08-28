@@ -273,19 +273,21 @@ body {
   background-color: #f2f6fb;
 }
 .content .about-us h2,
-.content .about-us h3{
+.content .about-us h3,
+.rizo h2,
+.rizo h3,
+.prices-calendars h2,
+.prices-calendars h3{
   font-family: "Futura PT Demi";
   font-size: 30px;
   padding-left: 45px;
   margin: 0 0 25px 0;
   color: #5b626a;
 }
-.content .about-us h3{
-    font-size: 20px;
-}
-.content .about-us p {
+.content .about-us p,
+.rizo p{
   font-family: "Roboto";
-  font-size: 18px;
+  font-size: 14px;
   padding-left: 30px;
   color: #202629;
   margin-bottom: 20px;
@@ -571,7 +573,8 @@ body {
     background-color: #f2f6fb;
     padding: 20px 0 0 0;
 }
-.prices-rizo{
+.prices-rizo,
+.prices-calendars{
     padding-top: 20px;
 }
 .rizo-title{
