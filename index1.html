@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,651 +15,819 @@
     <link href="css/fonts/roboto.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/media.css" rel="stylesheet">
+<!--
+    <link href="css/sliderkit-core.css" rel="stylesheet" />
+    <link href="css/sliderkit-demos.css" rel="stylesheet" />
+-->
+
+    <!-- Compatibility fix -->
+    <!--[if IE 6]>
+        <link rel="stylesheet" type="text/css" href="../lib/css/sliderkit-demos-ie6.css" />
+    <![endif]-->
+
+    <!--[if IE 7]>
+        <link rel="stylesheet" type="text/css" href="../lib/css/sliderkit-demos-ie7.css" />
+    <![endif]-->
+
+    <!--[if IE 8]>
+        <link rel="stylesheet" type="text/css" href="../lib/css/sliderkit-demos-ie8.css" />
+    <![endif]-->
 </head>
 <!--<?php include('head.php'); ?>-->
+
 <body>
-<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter37668145 = new Ya.Metrika({ id:37668145, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/37668145" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter37668145 = new Ya.Metrika({
+                        id: 37668145,
+                        clickmap: true,
+                        trackLinks: true,
+                        accurateTrackBounce: true,
+                        webvisor: true,
+                        trackHash: true
+                    });
+                } catch (e) {}
+            });
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function() {
+                    n.parentNode.insertBefore(s, n);
+                };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else {
+                f();
+            }
+        })(document, window, "yandex_metrika_callbacks");
+    </script> <noscript><div><img src="https://mc.yandex.ru/watch/37668145" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
     <div class="container-fluid">
         <div class="row">
             <div class="h_head"></div>
         </div>
     </div>
-<section>
-    <div class="container-fluid">
-        <div class="row">
-<!--            <?php include('left-menu.php'); ?>-->
-            <div class="col-xs-3 col-lg-3 left-menu">
-    <div class="logo text-right">
-        <a href="https://allosevk.github.io/Treprint/"><img src="img/logo.png" alt=""></a>
-    </div>
-    <div class="nav-left">
-        <ul>
-            <li class="clearfix">
-                <div class="nav-left-li third pull-right">
-                    <span><img src="img/ico/rizograf.png" alt=""></span>
-                    <a href="index1.html">Ризография</a>
-                </div>
-            </li>
-            <li class="clearfix">
-                <div class="nav-left-li first pull-right">
-                    <span><img src="img/ico/ico-left-1.png" alt=""></span>
-                    <a href="price.php#visitki">Визитки</a>
-                </div>
-            </li>
-            <li class="clearfix">
-                <div class="nav-left-li second pull-right">
-                    <span><img src="img/ico/ico-left-2.png" alt=""></span>
-                    <a href="price.php#discont">Дисконтные карты</a>
-                </div>
-            </li>
-            <li class="clearfix">
-                <div class="nav-left-li eight pull-right">
-                    <span><img src="img/ico/calendar.png" alt=""></span>
-                    <a href="calendars.html">Календари</a>
-                </div>
-            </li>
-            <li class="clearfix">
-                <div class="nav-left-li fourth pull-right">
-                    <span><img src="img/ico/ico-left-4.png" alt=""></span>
-                    <a href="price.php#offset">Офсетная печать</a>
-                </div>
-            </li>
-            <li class="clearfix">
-                <div class="nav-left-li fifth pull-right">
-                    <span><img src="img/ico/ico-left-5.png" alt=""></span>
-                    <a href="price.php#shir">Широкоформатная печать</a>
-                </div>
-            </li>
-            <li class="clearfix">
-                <div class="nav-left-li sixth pull-right">
-                    <span><img src="img/ico/ico-left-6.png" alt=""></span>
-                    <a href="price.php#raspr">Распространение печатной продукции</a>
-                </div>
-            </li>
-            <li class="clearfix">
-                <div class="nav-left-li seventh pull-right text-center">
-                    <a href="https://vk.com/treprint" target="_blank" class="social"><img src="img/vk_icon.png" alt="" /></a>
-                    <a href="https://facebook.com/reprint78" target="_blank" class="social"><img src="img/facebook.png" alt="" /></a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
-            <div class="col-xs-9 col-lg-9 content">
-<!--                <?php include('nav.php'); ?>-->
-                <div class="row header">
-                    <ul class="nav nav-pills nav-justified">
-                        <li class="header-info">
-                           <ul class="nav nav-pills nav-justified">
-                                <li><a class="head-a" href="">Цены</a></li>
-                                <li><a class="head-a" href="">Контакты</a></li>
-                                <p class="head-p">
-                                    <span>Адрес:</span>
-                                    <span>г.Санкт-Петербург, Шоссе Революции, 31</span>
-                                </p>
-                                <p class="head-p">
-                                    <span>E-mail:</span>
-                                    <a href="mailto:reprint.spb@gmail.com">reprint.spb@gmail.com</a>
-                                </p>
-                            </ul>
-                        </li>
-                        <li class="header-contacts">
-                            <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a>
-                            <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a>
-                            <button class="feedback" type="button">
-                                <span class="feedback-title">Обратная связь</span>
-                            </button>
-                        </li>
-                        <li class=header-price>
-                            <a href="" class="download-price">Скачать прай-слист</a>
-                        </li>
-                    </ul>
-                </div>  
-                <div class="feedback-contact">
-                                <h3>Остались вопросы?</h3>
-                                <form action="" method="POST" id="form">
-                                    <div id="result_div_id">
-                                    </div>
-                                    <input type="text" name="name" placeholder="Введите ваше имя" required="required">
-                                    <input type="tel" name="phone" placeholder="Введите ваш телефон" required="required">
-                                    <textarea name="question" placeholder="Текст вопроса" required="required"></textarea>
-                                    <button type="button"  onclick="AjaxFormRequest('result_div_id', 'form', 'mail.php')"><span><img src="img/ico/ico-download.png" alt=""></span><span>Отправить</span></button>
-                                </form>
-                            </div>
-                <div class="row promo">   
-               <div class="rizo-slide clearfix col-xs-12 col-lg-12">
-                            <img src="img/banner1.jpg" alt="Ризография">
-                </div>
-            </div>
-                <div class="row prices prices-rizo">
-                   <h1 class="rizo-title">Ризография</h1>
-                    <div class="max-content clearfix">
-                        <h2 class="text-center">Цены</h2>
-                        <div class="col-xs-12">
-
-                            <div class="row row-tables" id="rizo">
-                                <p>
-                                    Белая бумага. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;При печати с двух сторон - доплата 40%</p>
-                                <div class="table-responsive">
-                                    <table class="table table-hover table-striped text-center">
-                                        <thead>
-                                            <tr>
-                                                <th>
-                                                    &nbsp;
-                                                </th>
-                                                <th>
-                                                    A3
-                                                </th>
-                                                <th>
-                                                    A4
-                                                </th>
-                                                <th>
-                                                    A5
-                                                </th>
-                                                <th>
-                                                    A6
-                                                </th>
-                                                <th></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    100 шт
-                                                </td>
-                                                <td>
-                                                    &nbsp;
-                                                </td>
-                                                <td>
-                                                    &nbsp;
-                                                </td>
-                                                <td>
-                                                    &nbsp;
-                                                </td>
-                                                <td>
-                                                    &nbsp;
-                                                </td>
-                                                <td>
-                                                    &nbsp;
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    250 шт
-                                                </td>
-                                                <td>
-                                                    550 руб.
-                                                </td>
-                                                <td>
-                                                    315 руб.
-                                                </td>
-                                                <td>
-                                                    210 руб.
-                                                </td>
-                                                <td>
-                                                    157,5 руб.
-                                                </td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    500 шт
-                                                </td>
-                                                <td>
-                                                    770 руб.
-                                                </td>
-                                                <td>
-                                                    420 руб.
-                                                </td>
-                                                <td>
-                                                    315 руб.
-                                                </td>
-                                                <td>
-                                                    210 руб.
-                                                </td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    1000 шт
-                                                </td>
-                                                <td>
-                                                    1430 руб.
-                                                </td>
-                                                <td>
-                                                    682,5 руб.
-                                                </td>
-                                                <td>
-                                                    420 руб.
-                                                </td>
-                                                <td>
-                                                    315 руб.
-                                                </td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    2000 шт
-                                                </td>
-                                                <td>
-                                                    2860 руб.
-                                                </td>
-                                                <td>
-                                                    1365 руб.
-                                                </td>
-                                                <td>
-                                                    735 руб.
-                                                </td>
-                                                <td>
-                                                    472,5 руб.
-                                                </td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    3000 шт
-                                                </td>
-                                                <td>
-                                                    4180 руб.
-                                                </td>
-                                                <td>
-                                                    1995 руб.
-                                                </td>
-                                                <td>
-                                                    1050 руб.
-                                                </td>
-                                                <td>
-                                                    630 руб.
-                                                </td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    5000 шт
-                                                </td>
-                                                <td>
-                                                    6600 руб.
-                                                </td>
-                                                <td>
-                                                    3150 руб.
-                                                </td>
-                                                <td>
-                                                    1680 руб.
-                                                </td>
-                                                <td>
-                                                    840 руб.
-                                                </td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    10000 шт
-                                                </td>
-                                                <td>
-                                                    12650 руб.
-                                                </td>
-                                                <td>
-                                                    6300 руб.
-                                                </td>
-                                                <td>
-                                                    3360 руб.
-                                                </td>
-                                                <td>
-                                                    1680 руб.
-                                                </td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    20000 шт
-                                                </td>
-                                                <td>
-                                                    25300 руб.
-                                                </td>
-                                                <td>
-                                                    12075 руб.
-                                                </td>
-                                                <td>
-                                                    6300 руб.
-                                                </td>
-                                                <td>
-                                                    3360 руб.
-                                                </td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    30000 шт
-                                                </td>
-                                                <td>
-                                                    37400 руб.
-                                                </td>
-                                                <td>
-                                                    17850 руб.
-                                                </td>
-                                                <td>
-                                                    9450 руб.
-                                                </td>
-                                                <td>
-                                                    4935 руб.
-                                                </td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    50000 шт
-                                                </td>
-                                                <td>
-                                                    63800 руб.
-                                                </td>
-                                                <td>
-                                                    30450 руб.
-                                                </td>
-                                                <td>
-                                                    15225 руб.
-                                                </td>
-                                                <td>
-                                                    8400 руб.
-                                                </td>
-                                                <td></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <!--            <?php include('left-menu.php'); ?>-->
+                <div class="col-xs-3 col-lg-3 left-menu">
+                    <div class="logo text-right">
+                        <a href="https://allosevk.github.io/Treprint/"><img src="img/logo.png" alt=""></a>
+                    </div>
+                    <div class="nav-left">
+                        <ul>
+                            <li class="clearfix">
+                                <div class="nav-left-li third pull-right">
+                                    <span><img src="img/ico/rizograf.png" alt=""></span>
+                                    <a href="index1.html">Ризография</a>
                                 </div>
-                                <p>
-                                    Цветная бумага &nbsp; &nbsp; &nbsp;При печати с двух сторон - доплата 40%</p>
-                                <div class="table-responsive">
-                                    <table class="table table-hover table-striped text-center">
-                                        <thead>
-                                            <tr>
-                                                <th>
-                                                    &nbsp;
-                                                </th>
-                                                <th>
-                                                    A3
-                                                </th>
-                                                <th>
-                                                    A4
-                                                </th>
-                                                <th>
-                                                    A5
-                                                </th>
-                                                <th>
-                                                    A6
-                                                </th>
-                                                <th></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    100 шт
-                                                </td>
-                                                <td>
-                                                    495 руб.
-                                                </td>
-                                                <td>
-                                                    &nbsp;
-                                                </td>
-                                                <td>
-                                                    &nbsp;
-                                                </td>
-                                                <td>
-                                                    &nbsp;
-                                                </td>
-                                                <td>
-                                                    &nbsp;
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    250 шт
-                                                </td>
-                                                <td>
-                                                    935 руб.
-                                                </td>
-                                                <td>
-                                                    450 руб.
-                                                </td>
-                                                <td>
-                                                    350 руб.
-                                                </td>
-                                                <td>
-                                                    &nbsp;
-                                                </td>
-                                                <td>
-                                                    &nbsp;
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    500 шт
-                                                </td>
-                                                <td>
-                                                    1870 руб.
-                                                </td>
-                                                <td>
-                                                    950 руб.</td>
-                                                <td>
-                                                    550 руб.</td>
-                                                <td>
-                                                    350 руб.</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    1000 шт
-                                                </td>
-                                                <td>
-                                                    3630 руб.
-                                                </td>
-                                                <td>
-                                                    1900 руб.</td>
-                                                <td>
-                                                    950 руб.</td>
-                                                <td>
-                                                    600 руб.</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    2000 шт
-                                                </td>
-                                                <td>
-                                                    7260 руб.
-                                                </td>
-                                                <td>
-                                                    3800 руб.</td>
-                                                <td>
-                                                    1900 руб.</td>
-                                                <td>
-                                                    1000 руб.</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    3000 шт
-                                                </td>
-                                                <td>
-                                                    10890 руб.
-                                                </td>
-                                                <td>
-                                                    5700 руб.</td>
-                                                <td>
-                                                    2900 руб.</td>
-                                                <td>
-                                                    1500 руб.</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    5000 шт
-                                                </td>
-                                                <td>
-                                                    17600 руб.
-                                                </td>
-                                                <td>
-                                                    9000 руб.</td>
-                                                <td>
-                                                    4900 руб.</td>
-                                                <td>
-                                                    2500 руб.</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    10000 шт
-                                                </td>
-                                                <td>
-                                                    33000 руб.
-                                                </td>
-                                                <td>
-                                                    17000 руб.</td>
-                                                <td>
-                                                    9000 руб.</td>
-                                                <td>
-                                                    4900 руб.</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    20000 шт
-                                                </td>
-                                                <td>
-                                                    63000 руб.
-                                                </td>
-                                                <td>
-                                                    33000 руб.</td>
-                                                <td>
-                                                    17000 руб.</td>
-                                                <td>
-                                                    9500 руб.</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    30000 шт
-                                                </td>
-                                                <td>
-                                                    дог
-                                                </td>
-                                                <td>
-                                                    дог
-                                                </td>
-                                                <td>
-                                                    дог
-                                                </td>
-                                                <td>
-                                                    дог
-                                                </td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    50000 шт
-                                                </td>
-                                                <td>
-                                                    дог
-                                                </td>
-                                                <td>
-                                                    дог
-                                                </td>
-                                                <td>
-                                                    дог
-                                                </td>
-                                                <td>
-                                                    дог
-                                                </td>
-                                                <td></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                            </li>
+                            <li class="clearfix">
+                                <div class="nav-left-li first pull-right">
+                                    <span><img src="img/ico/ico-left-1.png" alt=""></span>
+                                    <a href="price.php#visitki">Визитки</a>
                                 </div>
-                            </div>
-                                <div class="col-xs-12 col-lg-12">                                      
-                        <h2><b>Ризография как дешевый способ оперативной печати.</b></h2>
-                        <p class="calendars_content">
-                            Вам нужно быстро напечатать несколько тысяч копий? Тогда вам следует воспользоваться
-                            услугами типографии RePrint, предлагающей <b>печать на ризографе в СПб.</b>
-                        </p>
-                        <p class="calendars_content">
-                            Ризограф — это печатное оборудование, идеально подходящее для печати большого количества (от 50 до нескольких миллионов экземпляров) рекламных листовок и флаеров, брошюр, объявлений, медицинских карт, инструкций, гарантийных талонов, методичек, различных документов для заполнения и подобной полиграфической продукции.
-                        </p>
-                        <p class="calendars_content">
-                            Характеристики печати:
-                        </p>
-                        <ul class="calendars_list">
-                            <li>Односторонняя или двусторонняя печать.</li>
-                            <li>Возможные форматы: А4, А5, А6, 210*98.</li>
-                            <li>Используется бумага плотностью 80-300 гр/м белая или цветная.</li>
-                            <li>Наносится исключительно черно-белое изображение, представляющее собой текст, простой рисунок или схему.
+                            </li>
+                            <li class="clearfix">
+                                <div class="nav-left-li second pull-right">
+                                    <span><img src="img/ico/ico-left-2.png" alt=""></span>
+                                    <a href="price.php#discont">Дисконтные карты</a>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="nav-left-li eight pull-right">
+                                    <span><img src="img/ico/calendar.png" alt=""></span>
+                                    <a href="calendars.html">Календари</a>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="nav-left-li fourth pull-right">
+                                    <span><img src="img/ico/ico-left-4.png" alt=""></span>
+                                    <a href="price.php#offset">Офсетная печать</a>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="nav-left-li fifth pull-right">
+                                    <span><img src="img/ico/ico-left-5.png" alt=""></span>
+                                    <a href="price.php#shir">Широкоформатная печать</a>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="nav-left-li sixth pull-right">
+                                    <span><img src="img/ico/ico-left-6.png" alt=""></span>
+                                    <a href="price.php#raspr">Распространение печатной продукции</a>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="nav-left-li seventh pull-right text-center">
+                                    <a href="https://vk.com/treprint" target="_blank" class="social"><img src="img/vk_icon.png" alt="" /></a>
+                                    <a href="https://facebook.com/reprint78" target="_blank" class="social"><img src="img/facebook.png" alt="" /></a>
+                                </div>
                             </li>
                         </ul>
-                        <p class="calendars_content">
-                            Другим важным преимуществом, кроме высокой скорости печати, является низкая цена копий, которая в несколько раз ниже офсетной печати.
-                        </p>
-                        <p class="calendars_content">
-                            Внимание! Ризография не предназначена для копирования многоцветных изображений высокого разрешения.
-                        </p>
-                        <h3>Почему стоит заказать в RePtint</h3>
-                        <p class="calendars_content">
-                            Если вы хотите заказать <b>услуги ризографии в СПб</b>, то предлагаем воспользоваться помощью нашей типографии.
-                        </p>
-                        <p class="calendars_content">
-                            Чем это выгодно для вас:
-                        </p>
-                        <ul>
-                            <li class="calendars_list">Для печати копий используется современное оборудование, предлагается широкий выбор печатных материалов.</li>
-                            <li class="calendars_list">Индивидуальный подход к клиенту позволяет сделать наиболее выгодное ценовое предложение в каждом конкретном случае.</li>
-                            <li class="calendars_list">Мы гарантируем высокое качество печати и соблюдение оговоренных сроков выполнения заказа.</li>
-                        </ul>
-                        <p class="calendars_content">Вы можете обратиться к нам как с готовым макетом, так и без него. Дизайнеры RePtint помогут перенести вашу идею на бумагу и сделают профессиональный макет.</p>
-                        <p class="calendars_content">На сайте представлены фото уже выполненных заказов, отзывы клиентов, а также прайс на услуги. Для заказа вы можете позвонить или написать нам.</p>
-                   </div>
-
-                    
                     </div>
                 </div>
-                </div>
-<!--                <?php include('nav.php'); ?>-->
+                <div class="col-xs-9 col-lg-9 content">
+                    <!--                <?php include('nav.php'); ?>-->
                     <div class="row header">
-                    <ul class="nav nav-pills nav-justified">
-                        <li class="header-info">
-                           <ul class="nav nav-pills nav-justified">
-                                <li><a class="head-a" href="">Цены</a></li>
-                                <li><a class="head-a" href="">Контакты</a></li>
-                                <p class="head-p">
-                                    <span>Адрес:</span>
-                                    <span>г.Санкт-Петербург, Шоссе Революции, 31</span>
-                                </p>
-                                <p class="head-p">
-                                    <span>E-mail:</span>
-                                    <a href="mailto:reprint.spb@gmail.com">reprint.spb@gmail.com</a>
-                                </p>
-                            </ul>
-                        </li>
-                        <li class="header-contacts">
-                            <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a>
-                            <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a>
-                            <div class="contract">
-                                <a class="contract-title">Скачать договор</a>
+                        <ul class="nav nav-pills nav-justified">
+                            <li class="header-info">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li><a class="head-a" href="">Цены</a></li>
+                                    <li><a class="head-a" href="">Контакты</a></li>
+                                    <p class="head-p">
+                                        <span>Адрес:</span>
+                                        <span>г.Санкт-Петербург, Шоссе Революции, 31</span>
+                                    </p>
+                                    <p class="head-p">
+                                        <span>E-mail:</span>
+                                        <a href="mailto:reprint.spb@gmail.com">reprint.spb@gmail.com</a>
+                                    </p>
+                                </ul>
+                            </li>
+                            <li class="header-contacts">
+                                <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a>
+                                <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a>
+                                <button class="feedback" type="button">
+                                <span class="feedback-title">Обратная связь</span>
+                            </button>
+                            </li>
+                            <li class=header-price>
+                                <a href="" class="download-price">Скачать прайс-лист</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="feedback-contact">
+                        <h3>Остались вопросы?</h3>
+                        <form action="" method="POST" id="form">
+                            <div id="result_div_id">
                             </div>
-                        </li>
-                        <li class=header-price>
-                            <a href="" class="download-price">Скачать прай-слист</a>
-                        </li>
-                    </ul>
-                    <div class="razrabot">
-                        <a href="http://h1-studio.ru" target="_blank">Убедительно просим Вас проверять все макеты на наличие ошибок и неточностей. После отправки в печать, претензии по макетам не принимаются.</a>
+                            <input type="text" name="name" placeholder="Введите ваше имя" required="required">
+                            <input type="tel" name="phone" placeholder="Введите ваш телефон" required="required">
+                            <textarea name="question" placeholder="Текст вопроса" required="required"></textarea>
+                            <button type="button" onclick="AjaxFormRequest('result_div_id', 'form', 'mail.php')"><span><img src="img/ico/ico-download.png" alt=""></span><span>Отправить</span></button>
+                        </form>
+                    </div>
+                    <div class="row promo">
+                        <div class="rizo-slide clearfix col-xs-12 col-lg-12">
+                            <img src="img/banner1.jpg" alt="Ризография">
+                        </div>
+                    </div>
+                    <div class="row prices prices-rizo">
+                        <div class="max-content clearfix">
+                            <h2 class="text-center">Цены</h2>
+                            <div class="col-xs-12">
+
+                                <div class="row row-tables" id="rizo">
+                                    <p>
+                                        Белая бумага. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;При печати с двух сторон - доплата 40%</p>
+                                    <div class="table-responsive">
+                                        <table class="table table-hover table-striped text-center">
+                                            <thead>
+                                                <tr>
+                                                    <th>
+                                                        &nbsp;
+                                                    </th>
+                                                    <th>
+                                                        A3
+                                                    </th>
+                                                    <th>
+                                                        A4
+                                                    </th>
+                                                    <th>
+                                                        A5
+                                                    </th>
+                                                    <th>
+                                                        A6
+                                                    </th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        100 шт
+                                                    </td>
+                                                    <td>
+                                                        &nbsp;
+                                                    </td>
+                                                    <td>
+                                                        &nbsp;
+                                                    </td>
+                                                    <td>
+                                                        &nbsp;
+                                                    </td>
+                                                    <td>
+                                                        &nbsp;
+                                                    </td>
+                                                    <td>
+                                                        &nbsp;
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        250 шт
+                                                    </td>
+                                                    <td>
+                                                        550 руб.
+                                                    </td>
+                                                    <td>
+                                                        315 руб.
+                                                    </td>
+                                                    <td>
+                                                        210 руб.
+                                                    </td>
+                                                    <td>
+                                                        157,5 руб.
+                                                    </td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        500 шт
+                                                    </td>
+                                                    <td>
+                                                        770 руб.
+                                                    </td>
+                                                    <td>
+                                                        420 руб.
+                                                    </td>
+                                                    <td>
+                                                        315 руб.
+                                                    </td>
+                                                    <td>
+                                                        210 руб.
+                                                    </td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        1000 шт
+                                                    </td>
+                                                    <td>
+                                                        1430 руб.
+                                                    </td>
+                                                    <td>
+                                                        682,5 руб.
+                                                    </td>
+                                                    <td>
+                                                        420 руб.
+                                                    </td>
+                                                    <td>
+                                                        315 руб.
+                                                    </td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        2000 шт
+                                                    </td>
+                                                    <td>
+                                                        2860 руб.
+                                                    </td>
+                                                    <td>
+                                                        1365 руб.
+                                                    </td>
+                                                    <td>
+                                                        735 руб.
+                                                    </td>
+                                                    <td>
+                                                        472,5 руб.
+                                                    </td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        3000 шт
+                                                    </td>
+                                                    <td>
+                                                        4180 руб.
+                                                    </td>
+                                                    <td>
+                                                        1995 руб.
+                                                    </td>
+                                                    <td>
+                                                        1050 руб.
+                                                    </td>
+                                                    <td>
+                                                        630 руб.
+                                                    </td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        5000 шт
+                                                    </td>
+                                                    <td>
+                                                        6600 руб.
+                                                    </td>
+                                                    <td>
+                                                        3150 руб.
+                                                    </td>
+                                                    <td>
+                                                        1680 руб.
+                                                    </td>
+                                                    <td>
+                                                        840 руб.
+                                                    </td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        10000 шт
+                                                    </td>
+                                                    <td>
+                                                        12650 руб.
+                                                    </td>
+                                                    <td>
+                                                        6300 руб.
+                                                    </td>
+                                                    <td>
+                                                        3360 руб.
+                                                    </td>
+                                                    <td>
+                                                        1680 руб.
+                                                    </td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        20000 шт
+                                                    </td>
+                                                    <td>
+                                                        25300 руб.
+                                                    </td>
+                                                    <td>
+                                                        12075 руб.
+                                                    </td>
+                                                    <td>
+                                                        6300 руб.
+                                                    </td>
+                                                    <td>
+                                                        3360 руб.
+                                                    </td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        30000 шт
+                                                    </td>
+                                                    <td>
+                                                        37400 руб.
+                                                    </td>
+                                                    <td>
+                                                        17850 руб.
+                                                    </td>
+                                                    <td>
+                                                        9450 руб.
+                                                    </td>
+                                                    <td>
+                                                        4935 руб.
+                                                    </td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        50000 шт
+                                                    </td>
+                                                    <td>
+                                                        63800 руб.
+                                                    </td>
+                                                    <td>
+                                                        30450 руб.
+                                                    </td>
+                                                    <td>
+                                                        15225 руб.
+                                                    </td>
+                                                    <td>
+                                                        8400 руб.
+                                                    </td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <p>
+                                        Цветная бумага &nbsp; &nbsp; &nbsp;При печати с двух сторон - доплата 40%</p>
+                                    <div class="table-responsive">
+                                        <table class="table table-hover table-striped text-center">
+                                            <thead>
+                                                <tr>
+                                                    <th>
+                                                        &nbsp;
+                                                    </th>
+                                                    <th>
+                                                        A3
+                                                    </th>
+                                                    <th>
+                                                        A4
+                                                    </th>
+                                                    <th>
+                                                        A5
+                                                    </th>
+                                                    <th>
+                                                        A6
+                                                    </th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        100 шт
+                                                    </td>
+                                                    <td>
+                                                        495 руб.
+                                                    </td>
+                                                    <td>
+                                                        &nbsp;
+                                                    </td>
+                                                    <td>
+                                                        &nbsp;
+                                                    </td>
+                                                    <td>
+                                                        &nbsp;
+                                                    </td>
+                                                    <td>
+                                                        &nbsp;
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        250 шт
+                                                    </td>
+                                                    <td>
+                                                        935 руб.
+                                                    </td>
+                                                    <td>
+                                                        450 руб.
+                                                    </td>
+                                                    <td>
+                                                        350 руб.
+                                                    </td>
+                                                    <td>
+                                                        &nbsp;
+                                                    </td>
+                                                    <td>
+                                                        &nbsp;
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        500 шт
+                                                    </td>
+                                                    <td>
+                                                        1870 руб.
+                                                    </td>
+                                                    <td>
+                                                        950 руб.</td>
+                                                    <td>
+                                                        550 руб.</td>
+                                                    <td>
+                                                        350 руб.</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        1000 шт
+                                                    </td>
+                                                    <td>
+                                                        3630 руб.
+                                                    </td>
+                                                    <td>
+                                                        1900 руб.</td>
+                                                    <td>
+                                                        950 руб.</td>
+                                                    <td>
+                                                        600 руб.</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        2000 шт
+                                                    </td>
+                                                    <td>
+                                                        7260 руб.
+                                                    </td>
+                                                    <td>
+                                                        3800 руб.</td>
+                                                    <td>
+                                                        1900 руб.</td>
+                                                    <td>
+                                                        1000 руб.</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        3000 шт
+                                                    </td>
+                                                    <td>
+                                                        10890 руб.
+                                                    </td>
+                                                    <td>
+                                                        5700 руб.</td>
+                                                    <td>
+                                                        2900 руб.</td>
+                                                    <td>
+                                                        1500 руб.</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        5000 шт
+                                                    </td>
+                                                    <td>
+                                                        17600 руб.
+                                                    </td>
+                                                    <td>
+                                                        9000 руб.</td>
+                                                    <td>
+                                                        4900 руб.</td>
+                                                    <td>
+                                                        2500 руб.</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        10000 шт
+                                                    </td>
+                                                    <td>
+                                                        33000 руб.
+                                                    </td>
+                                                    <td>
+                                                        17000 руб.</td>
+                                                    <td>
+                                                        9000 руб.</td>
+                                                    <td>
+                                                        4900 руб.</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        20000 шт
+                                                    </td>
+                                                    <td>
+                                                        63000 руб.
+                                                    </td>
+                                                    <td>
+                                                        33000 руб.</td>
+                                                    <td>
+                                                        17000 руб.</td>
+                                                    <td>
+                                                        9500 руб.</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        30000 шт
+                                                    </td>
+                                                    <td>
+                                                        дог
+                                                    </td>
+                                                    <td>
+                                                        дог
+                                                    </td>
+                                                    <td>
+                                                        дог
+                                                    </td>
+                                                    <td>
+                                                        дог
+                                                    </td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        50000 шт
+                                                    </td>
+                                                    <td>
+                                                        дог
+                                                    </td>
+                                                    <td>
+                                                        дог
+                                                    </td>
+                                                    <td>
+                                                        дог
+                                                    </td>
+                                                    <td>
+                                                        дог
+                                                    </td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="sliderkit photosgallery-vertical">
+                                    <div class="sliderkit-nav">
+                                        <div class="sliderkit-nav-clip">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" rel="nofollow" title="[link title]"><img src="img/mini/sample-01.jpg" alt="[Alternative text]" /></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" rel="nofollow" title="[link title]"><img src="img/mini/sample-02.jpg" alt="[Alternative text]" /></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" rel="nofollow" title="[link title]"><img src="img/mini/sample-03.jpg" alt="[Alternative text]" /></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" rel="nofollow" title="[link title]"><img src="img/mini/sample-04.jpg" alt="[Alternative text]" /></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" rel="nofollow" title="[link title]"><img src="img/mini/sample-05.jpg" alt="[Alternative text]" /></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" rel="nofollow" title="[link title]"><img src="img/mini/sample-06.jpg" alt="[Alternative text]" /></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" rel="nofollow" title="[link title]"><img src="img/mini/sample-07.jpg" alt="[Alternative text]" /></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-prev"><a rel="nofollow" href="#" title="Previous line"><span>Previous</span></a></div>
+                                        <div class="sliderkit-btn sliderkit-nav-btn sliderkit-nav-next"><a rel="nofollow" href="#" title="Next line"><span>Next</span></a></div>
+                                    </div>
+                                    <div class="sliderkit-panels">
+                                        <div class="sliderkit-panel">
+                                            <img src="img/sample-01.jpg" alt="[Alternative text]" />
+                                            <div class="sliderkit-panel-textbox">
+                                                <div class="sliderkit-panel-text">
+                                                    <h4>sample-01.jpg</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                                </div>
+                                                <div class="sliderkit-panel-overlay"></div>
+                                            </div>
+                                        </div>
+                                        <div class="sliderkit-panel">
+                                            <img src="img/sample-02.jpg" alt="[Alternative text]" />
+                                            <div class="sliderkit-panel-textbox">
+                                                <div class="sliderkit-panel-text">
+                                                    <h4>sample-02.jpg</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+                                                </div>
+                                                <div class="sliderkit-panel-overlay"></div>
+                                            </div>
+                                        </div>
+                                        <div class="sliderkit-panel">
+                                            <img src="img/sample-03.jpg" alt="[Alternative text]" />
+                                            <div class="sliderkit-panel-textbox">
+                                                <div class="sliderkit-panel-text">
+                                                    <h4>sample-03.jpg</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+                                                </div>
+                                                <div class="sliderkit-panel-overlay"></div>
+                                            </div>
+                                        </div>
+                                        <div class="sliderkit-panel">
+                                            <img src="img/sample-04.jpg" alt="[Alternative text]" />
+                                            <div class="sliderkit-panel-textbox">
+                                                <div class="sliderkit-panel-text">
+                                                    <h4>sample-04.jpg</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+                                                </div>
+                                                <div class="sliderkit-panel-overlay"></div>
+                                            </div>
+                                        </div>
+                                        <div class="sliderkit-panel">
+                                            <img src="img/sample-05.jpg" alt="[Alternative text]" />
+                                            <div class="sliderkit-panel-textbox">
+                                                <div class="sliderkit-panel-text">
+                                                    <h4>sample-05.jpg</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                                </div>
+                                                <div class="sliderkit-panel-overlay"></div>
+                                            </div>
+                                        </div>
+                                        <div class="sliderkit-panel">
+                                            <img src="img/sample-06.jpg" alt="[Alternative text]" />
+                                            <div class="sliderkit-panel-textbox">
+                                                <div class="sliderkit-panel-text">
+                                                    <h4>sample-06.jpg</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                                </div>
+                                                <div class="sliderkit-panel-overlay"></div>
+                                            </div>
+                                        </div>
+                                        <div class="sliderkit-panel">
+                                            <img src="img/sample-07.jpg" alt="[Alternative text]" />
+                                            <div class="sliderkit-panel-textbox">
+                                                <div class="sliderkit-panel-text">
+                                                    <h4>sample-07.jpg</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+                                                </div>
+                                                <div class="sliderkit-panel-overlay"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-lg-12">
+                                    <h2><b>Ризография как дешевый способ оперативной печати.</b></h2>
+                                    <p class="calendars_content">
+                                        Вам нужно быстро напечатать несколько тысяч копий? Тогда вам следует воспользоваться услугами типографии RePrint, предлагающей <b>печать на ризографе в СПб.</b>
+                                    </p>
+                                    <p class="calendars_content">
+                                        Ризограф — это печатное оборудование, идеально подходящее для печати большого количества (от 50 до нескольких миллионов экземпляров) рекламных листовок и флаеров, брошюр, объявлений, медицинских карт, инструкций, гарантийных талонов, методичек, различных документов для заполнения и подобной полиграфической продукции.
+                                    </p>
+                                    <p class="calendars_content">
+                                        Характеристики печати:
+                                    </p>
+                                    <ul class="calendars_list">
+                                        <li>Односторонняя или двусторонняя печать.</li>
+                                        <li>Возможные форматы: А4, А5, А6, 210*98.</li>
+                                        <li>Используется бумага плотностью 80-300 гр/м белая или цветная.</li>
+                                        <li>Наносится исключительно черно-белое изображение, представляющее собой текст, простой рисунок или схему.
+                                        </li>
+                                    </ul>
+                                    <p class="calendars_content">
+                                        Другим важным преимуществом, кроме высокой скорости печати, является низкая цена копий, которая в несколько раз ниже офсетной печати.
+                                    </p>
+                                    <p class="calendars_content">
+                                        Внимание! Ризография не предназначена для копирования многоцветных изображений высокого разрешения.
+                                    </p>
+                                    <h3>Почему стоит заказать в RePtint</h3>
+                                    <p class="calendars_content">
+                                        Если вы хотите заказать <b>услуги ризографии в СПб</b>, то предлагаем воспользоваться помощью нашей типографии.
+                                    </p>
+                                    <p class="calendars_content">
+                                        Чем это выгодно для вас:
+                                    </p>
+                                    <ul>
+                                        <li class="calendars_list">Для печати копий используется современное оборудование, предлагается широкий выбор печатных материалов.</li>
+                                        <li class="calendars_list">Индивидуальный подход к клиенту позволяет сделать наиболее выгодное ценовое предложение в каждом конкретном случае.</li>
+                                        <li class="calendars_list">Мы гарантируем высокое качество печати и соблюдение оговоренных сроков выполнения заказа.</li>
+                                    </ul>
+                                    <p class="calendars_content">Вы можете обратиться к нам как с готовым макетом, так и без него. Дизайнеры RePtint помогут перенести вашу идею на бумагу и сделают профессиональный макет.</p>
+                                    <p class="calendars_content">На сайте представлены фото уже выполненных заказов, отзывы клиентов, а также прайс на услуги. Для заказа вы можете позвонить или написать нам.</p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--                <?php include('nav.php'); ?>-->
+                    <div class="row header">
+                        <ul class="nav nav-pills nav-justified">
+                            <li class="header-info">
+                                <ul class="nav nav-pills nav-justified">
+                                    <li><a class="head-a" href="">Цены</a></li>
+                                    <li><a class="head-a" href="">Контакты</a></li>
+                                    <p class="head-p">
+                                        <span>Адрес:</span>
+                                        <span>г.Санкт-Петербург, Шоссе Революции, 31</span>
+                                    </p>
+                                    <p class="head-p">
+                                        <span>E-mail:</span>
+                                        <a href="mailto:reprint.spb@gmail.com">reprint.spb@gmail.com</a>
+                                    </p>
+                                </ul>
+                            </li>
+                            <li class="header-contacts">
+                                <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a>
+                                <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a>
+                                <div class="contract">
+                                    <a class="contract-title">Скачать договор</a>
+                                </div>
+                            </li>
+                            <li class=header-price>
+                                <a href="" class="download-price">Скачать прай-слист</a>
+                            </li>
+                        </ul>
+                        <div class="razrabot">
+                            <span target="_blank">Убедительно просим Вас проверять все макеты на наличие ошибок и неточностей. После отправки в печать, претензии по макетам не принимаются.</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="libs/bootstrap/js/bootstrap.min.js"></script>
-<script src="js/common.js"></script>
+    <script src="libs/jquery/jquery-2.2.min.js"></script>
+    
+    
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    
+    <!-- Slider Kit -->
+    <script type="text/javascript" src="js/jquery.sliderkit.1.4.min.js"></script>
+
+    <!-- Add-ons -->
+    <script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script> 
+
+    <!-- Slider Kit execution -->
+    <script type="text/javascript">
+        jQuery(window).load(function(){
+
+            jQuery(".anytagselector").sliderkit();
+
+        });
+    </script>
 </body>
+
 </html>
