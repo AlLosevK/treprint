@@ -101,11 +101,10 @@ $('.slider-image').slick({
   asNavFor: '.slider-nav'
 });
 $('.slider-nav').slick({
-  slidesToShow: 2,
+  slidesToShow: 3,
   slidesToScroll: 1,
   asNavFor: '.slider-image',
   centerMode: true,
   focusOnSelect: true,
-  vertical: true,
-  verticalSwiping: true
+  vertical: true
 });

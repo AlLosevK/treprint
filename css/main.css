@@ -865,7 +865,7 @@ body {
     align-items: center;
     margin: 0 auto;
     width: 80%;
-    background-color: #dbdbdb;
+    background-color: #0f0f0f;
 }
 
 .rizo-slider .slider-nav img {
@@ -873,7 +873,7 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: 5px solid #fff;
-    margin: 15px 0;
+    margin: 5px 0;
 }
 .rizo-slider .slider-nav img:active,
 .rizo-slider .slider-nav img:hover,
@@ -886,21 +886,21 @@ body {
     width: 20%;
     padding: 30px 15px;
     background-color: #0f0f0f;
-    
-}
-
+} 
 .slider-nav .slick-prev{
-    top: 9px;
+    top: 10px;
     left: 0;
-    width: 100%;
+    width: 50%;
     background-color: #747474;
+    margin-left: 25%;
 }
 
 .slider-nav .slick-next{
-    top: 370px;
+    bottom: -10px;
     left: 0;
-    width: 100%;
+    width: 50%;
     background-color: #747474;
+    margin-left: 25%;
 }
 
 .slider-image {
