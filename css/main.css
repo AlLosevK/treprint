@@ -1,543 +1,652 @@
 body {
-  min-width: 1220px;
-  width: 100%;
+    min-width: 1220px;
+    width: 100%;
 }
+
 .col-xs-9,
 .col-xs-3,
 .col-lg-8,
 .col-lg-4 {
-  padding: 0;
+    padding: 0;
 }
+
 .container-fluid {
-  padding: 0;
-  margin: 0 auto;
-  max-width: 1300px;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1300px;
 }
+
 .h_head {
-  content: " ";
-  min-width: 100%;
-  height: 3px;
-  width: 100%;
-  background-image: url("../img/h_head.png");
-  background-size: cover;
+    content: " ";
+    min-width: 100%;
+    height: 3px;
+    width: 100%;
+    background-image: url("../img/h_head.png");
+    background-size: cover;
 }
+
 .row {
-  margin: 0;
-  position: relative;
+    margin: 0;
+    position: relative;
 }
+
 .logo-footer {
-  position: absolute;
-  bottom: 0;
-  left: -230px;;
-  padding-top: 35px;
-  padding-bottom: 35px;
+    position: absolute;
+    bottom: 0;
+    left: -230px;
+    ;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
+
 .logo-footer img,
 .left-menu .logo img {
     max-width: 200px;
 }
+
 .left-menu .logo {
-  padding-top: 35px;
-  padding-right: 30px;
-  padding-bottom: 35px;
+    padding-top: 35px;
+    padding-right: 30px;
+    padding-bottom: 35px;
 }
+
 .left-menu .nav-left ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
 .left-menu .nav-left ul li {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 25px;
-  border-bottom: 1px solid #f1f1f1;
-  font-size: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 0;
 }
+
 .left-menu .nav-left ul li span {
-  width: 30px;
-  margin-right: 15px;
-  display: inline-block;
-  vertical-align: middle;
+    width: 30px;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
 }
+
 .left-menu .nav-left ul li:first-of-type {
-  border-top: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
 }
+
 .left-menu .nav-left ul li a {
-  width: 165px;
-  font-size: 16px;
-  display: inline-block;
-  vertical-align: middle;
-  text-decoration: underline;
-  font-family: "Futura PT Medium";
-  color: #201f7b !important;
+    width: 165px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: underline;
+    font-family: "Futura PT Medium";
+    color: #201f7b !important;
 }
+
 .left-menu .nav-left ul li a:hover,
 .left-menu .nav-left ul li a:focus,
 .left-menu .nav-left ul li a:active {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 .content .header {
     background-color: #202629;
     font-size: 0;
     padding: 0 20px;
 }
+
 .content .header ul {
-  max-width: 950px;
+    max-width: 950px;
 }
+
 .content .header ul li {
-  vertical-align: middle;
-  text-align: center;
-  display: table-cell !important;
-  width: 1%;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell !important;
+    width: 1%;
 }
+
 .content .header ul li a {
-  white-space: nowrap;
+    white-space: nowrap;
 }
+
 .content .header ul li p {
-  white-space: nowrap;
+    white-space: nowrap;
 }
+
 .content .header ul li .head-a {
-  color: #fff;
+    color: #fff;
     text-align: left;
-  font-family: "Futura PT Demi";
-  font-size: 16px;
-  text-transform: uppercase;
-  padding: 25px 15px 22px 0px;
+    font-family: "Futura PT Demi";
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 25px 15px 22px 0px;
 }
-.header-info .nav li:first-child .head-a{
+
+.header-info .nav li:first-child .head-a {
     text-align: center;
 }
+
 .content .header ul li .head-a:hover,
 .content .header ul li .head-a:focus,
 .content .header ul li .head-a:active {
-  background: none;
+    background: none;
 }
+
 .content .header ul li .download-price {
-  display: inline-block;
-  padding: 15px 35px;
-  border-radius: 35px;
-  font-family: "Futura PT Heavy";
-  font-size: 14px;
-  color: #000;
-  text-transform: uppercase;
-  background-color: #dce300;
-  border-bottom: 4px solid #a68900 !important;
+    display: inline-block;
+    padding: 15px 35px;
+    border-radius: 35px;
+    font-family: "Futura PT Heavy";
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    background-color: #dce300;
+    border-bottom: 4px solid #a68900 !important;
 }
+
 .content .header ul li .download-price span {
-  display: inline-block;
+    display: inline-block;
 }
+
 .content .header ul li .download-price span:last-of-type {
-  margin-left: 4px;
-  vertical-align: middle;
+    margin-left: 4px;
+    vertical-align: middle;
 }
+
 .content .header ul li .download-price span img {
-  display: inline-block;
-  vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
+
 .content .header ul li .download-price:hover,
 .content .header ul li .download-price:focus,
 .content .header ul li .download-price:active {
-  background-color: #dce300;
-  text-decoration: none;
-  color: #fff;
+    background-color: #dce300;
+    text-decoration: none;
+    color: #fff;
 }
+
 .content .header ul li .download-price:active {
-  border: none !important;
+    border: none !important;
 }
+
 .content .header ul li .head-contact {
-  display: inline-block;
-  padding-top: 15px;
-  padding-bottom: 15px;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
+
 .content .header ul li .head-contact .head-p {
-  text-align: left;
+    text-align: left;
 }
+
 .content .header ul li .head-contact .head-p .head-tel {
-  display: inline-block;
-  margin-left: 40px;
-  color: #fff;
-  font-family: "Futura PT Medium";
-  font-size: 30px;
-  line-height: 1;
+    display: inline-block;
+    margin-left: 40px;
+    color: #fff;
+    font-family: "Futura PT Medium";
+    font-size: 30px;
+    line-height: 1;
 }
-.header-contacts a.head-tel{
-    padding: 5px 15px;    
+
+.header-contacts a.head-tel {
+    padding: 5px 15px;
 }
-.head-tel:first-child{
+
+.head-tel:first-child {
     margin-left: 0;
 }
+
 .content .header ul li .head-contact .head-p span {
-  color: #fff;
-  font-family: "Roboto";
-  font-size: 14px;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 14px;
 }
+
 .content .header ul li .head-contact .head-p span:first-of-type {
-  width: 50px;
-  margin-right: 4px;
-  color: #565b5e;
+    width: 50px;
+    margin-right: 4px;
+    color: #565b5e;
 }
+
 .content .header ul li .head-contact .head-p a {
-  color: #dce300;
-  font-family: "Roboto";
-  font-size: 14px;
-  display: inline-block;
+    color: #dce300;
+    font-family: "Roboto";
+    font-size: 14px;
+    display: inline-block;
 }
+
 .content .slide {
-  position: relative;
-  padding-bottom: 50px;
-  background-image: url("../img/bg1.jpg");
-  background-size: cover;
+    position: relative;
+    padding-bottom: 50px;
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
 }
+
 .content .slide .price-link {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
 }
+
 .content .slide .price-link:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 .content .slide .visit div {
-  height: 140px;
-  position: relative;
-  margin-bottom: 5px;
-  text-align: center;
+    height: 140px;
+    position: relative;
+    margin-bottom: 5px;
+    text-align: center;
 }
+
 .content .slide .visit div .text {
-  position: absolute;
-  top: 67px;
-  left: 32px;
-  width: 107px;
-  padding: 11px;
-  background-color: #00B1C6;
-  margin-left: 0;
-  font-size: 15px;
-  font-family: "Roboto";
-  font-weight: bold;
-  color: #ffffff;
+    position: absolute;
+    top: 67px;
+    left: 32px;
+    width: 107px;
+    padding: 11px;
+    background-color: #00B1C6;
+    margin-left: 0;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #ffffff;
 }
+
 .content .slide .visit div .text sup {
-  font-family: "Roboto";
-  font-weight: normal;
-  font-size: 9px;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 9px;
 }
+
 .content .slide .visit div img {
-  margin-bottom: 15px;
-  max-width: 100%;
-  display: inline-block;
+    margin-bottom: 15px;
+    max-width: 100%;
+    display: inline-block;
 }
+
 .content .slide .visit a {
-  display: block;
-  text-align: center;
-  font-family: "Roboto";
-  font-weight: bold;
-  color: #202629 !important;
-  font-size: 18px;
-  margin-left: 5px;
-  text-decoration: none !important;
+    display: block;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #202629 !important;
+    font-size: 18px;
+    margin-left: 5px;
+    text-decoration: none !important;
 }
+
 .content .slide .title {
-  padding-top: 50px;
-  padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
+
 .content .slide .title h1 {
-  font-family: "Futura PT Demi";
-  font-size: 37px;
-  margin: 0;
-  color: #202629;
+    font-family: "Futura PT Demi";
+    font-size: 37px;
+    margin: 0;
+    color: #202629;
 }
+
 .content .slide .title h2 {
-  font-family: "Futura PT Book";
-  font-size: 28px;
-  margin: 0;
-  color: #202629;
+    font-family: "Futura PT Book";
+    font-size: 28px;
+    margin: 0;
+    color: #202629;
 }
+
 .content .slide .sub-title {
-  padding-left: 40px;
+    padding-left: 40px;
 }
+
 .content .slide .sub-title p {
-  font-family: "Futura PT Book";
-  font-size: 21px;
-  text-align: left;
-  color: #202629;
-  margin: 0 0 0 90px;
+    font-family: "Futura PT Book";
+    font-size: 21px;
+    text-align: left;
+    color: #202629;
+    margin: 0 0 0 90px;
 }
+
 .content .slide .visit-2 img {
-  margin-top: -10px;
+    margin-top: -10px;
 }
+
 .content .about-us {
-  padding-top: 65px;
-  padding-bottom: 40px;
-  background-color: #f2f6fb;
+    padding-top: 65px;
+    padding-bottom: 40px;
+    background-color: #f2f6fb;
 }
+
 .content .about-us h2,
-.content .about-us h3{
-  font-family: "Futura PT Demi";
-  font-size: 30px;
-  padding-left: 30px;
-  margin: 0 0 25px 0;
-  color: #5b626a;
+.content .about-us h3 {
+    font-family: "Futura PT Demi";
+    font-size: 30px;
+    padding-left: 30px;
+    margin: 0 0 25px 0;
+    color: #5b626a;
 }
+
 .content .about-us p,
-.rizo p{
-  font-family: "Roboto";
-  font-size: 14px;
-  padding-left: 30px;
-  color: #202629;
-  margin-bottom: 20px;
+.rizo p {
+    font-family: "Roboto";
+    font-size: 14px;
+    padding-left: 30px;
+    color: #202629;
+    margin-bottom: 20px;
 }
+
 .content .about-us .visit {
-  padding-top: 0px;
+    padding-top: 0px;
 }
+
 .content .about-us .visit div {
-  height: 140px;
-  margin-bottom: 5px;
+    height: 140px;
+    margin-bottom: 5px;
 }
+
 .content .about-us .visit div img {
-  margin-bottom: 15px;
-  max-width: 100%;
-  text-align: center;
+    margin-bottom: 15px;
+    max-width: 100%;
+    text-align: center;
 }
+
 .content .about-us .visit a {
-  display: block;
-  text-align: center;
-  font-family: "Roboto";
-  font-size: 14px;
-  margin-left: 5px;
-  text-decoration: underline;
+    display: block;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-left: 5px;
+    text-decoration: underline;
 }
+
 .content .about-us .visit .visit-1 a {
-  color: #2b2781;
+    color: #2b2781;
 }
+
 .content .about-us .visit .visit-2 a {
-  color: #3da31a;
+    color: #3da31a;
 }
+
 .content .about-us .visit .visit-3 a {
-  color: #e11116;
+    color: #e11116;
 }
+
 .content .preim {
-  padding-bottom: 60px;
-  background-color: #f2f6fb;
+    padding-bottom: 60px;
+    background-color: #f2f6fb;
 }
+
 .content .preim h3 {
-  font-family: "Futura PT Demi";
-  font-size: 30px;
-  padding-left: 45px;
-  margin: 0 0 45px 0;
-  color: #5b626a;
+    font-family: "Futura PT Demi";
+    font-size: 30px;
+    padding-left: 45px;
+    margin: 0 0 45px 0;
+    color: #5b626a;
 }
+
 .content .preim .col-xs-3 img {
-  margin-bottom: 15px;
-  text-align: center;
+    margin-bottom: 15px;
+    text-align: center;
 }
+
 .content .preim .col-xs-3 p {
-  width: 160px;
-  margin: 0 auto;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 14px;
-  color: #5b626a;
+    width: 160px;
+    margin: 0 auto;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    color: #5b626a;
 }
+
 .contact-us {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #f2f6fb;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f2f6fb;
 }
+
 .contact-us h1 {
-  font-family: "Futura PT Book";
-  margin-bottom: 80px;
-  font-size: 48px;
-  color: #5b626a;
-  margin-top: 0px;
-  text-transform: uppercase;
+    font-family: "Futura PT Book";
+    margin-bottom: 80px;
+    font-size: 48px;
+    color: #5b626a;
+    margin-top: 0px;
+    text-transform: uppercase;
 }
+
 .contact-us .contcat-p {
-  padding: 0 50px;
-  margin-bottom: 20px;
+    padding: 0 50px;
+    margin-bottom: 20px;
 }
+
 .contact-us .contcat-p img {
-  margin-right: 4px;
-  vertical-align: middle;
-  display: inline-block;
+    margin-right: 4px;
+    vertical-align: middle;
+    display: inline-block;
 }
+
 .contact-us .contcat-p .label {
-  font-family: "Roboto";
-  font-weight: 500;
-  color: #636e7c;
-  vertical-align: middle;
-  font-size: 16px;
-  display: inline-block;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #636e7c;
+    vertical-align: middle;
+    font-size: 16px;
+    display: inline-block;
 }
+
 .contact-us .contcat-p span {
-  font-family: "Futura PT Medium";
-  color: #202629;
-  font-size: 16px;
-  vertical-align: middle;
-  display: inline-block;
+    font-family: "Futura PT Medium";
+    color: #202629;
+    font-size: 16px;
+    vertical-align: middle;
+    display: inline-block;
 }
+
 .contact-us .contcat-p span:nth-child(odd) {
     display: inline;
 }
+
 .contact-us h3 {
-  font-family: "Futura PT Demi";
-  font-size: 30px;
-  padding: 0 50px 25px;
-  color: #5b626a;
+    font-family: "Futura PT Demi";
+    font-size: 30px;
+    padding: 0 50px 25px;
+    color: #5b626a;
 }
+
 .contact-us form {
-  width: 400px;
-  margin: 0 50px;
-  background-color: #f9fbfd;
-  padding: 30px 40px;
-  text-align: center;
+    width: 400px;
+    margin: 0 50px;
+    background-color: #f9fbfd;
+    padding: 30px 40px;
+    text-align: center;
 }
+
 .contact-us form input,
 .contact-us form textarea,
 .feedback-contact input,
-.feedback-contact textarea{
-  resize: none;
-  width: 100%;
-  margin-bottom: 10px;
-  display: inline-block;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 25px;
-  padding: 15px 20px;
-  font-family: "Futura PT Book";
-  font-size: 18px;
-  color: #636e7c;
+.feedback-contact textarea {
+    resize: none;
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 15px 20px;
+    font-family: "Futura PT Book";
+    font-size: 18px;
+    color: #636e7c;
 }
+
 .contact-us form button,
-.feedback-contact form button{
-  display: inline-block;
-  padding: 15px 35px;
-  border: none;
-  border-radius: 35px;
-  font-family: "Futura PT Heavy";
-  font-size: 14px;
-  color: #000;
-  text-transform: uppercase;
-  outline: none;
-  background-color: #dce300;
-  border-bottom: 4px solid #a68900 !important;
+.feedback-contact form button {
+    display: inline-block;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 35px;
+    font-family: "Futura PT Heavy";
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    outline: none;
+    background-color: #dce300;
+    border-bottom: 4px solid #a68900 !important;
 }
+
 .contact-us form button span,
-.feedback-contact form button span{
-  display: inline-block;
+.feedback-contact form button span {
+    display: inline-block;
 }
+
 .contact-us form button span:last-of-type,
-.feedback-contact form button span:last-of-type{
-  margin-left: 4px;
-  vertical-align: middle;
+.feedback-contact form button span:last-of-type {
+    margin-left: 4px;
+    vertical-align: middle;
 }
+
 .contact-us form button span img,
-.feedback-contact form button span img{
-  display: inline-block;
-  vertical-align: middle;
+.feedback-contact form button span img {
+    display: inline-block;
+    vertical-align: middle;
 }
+
 .contact-us form button:hover,
 .feedback-contact form button:hover,
 .contact-us form button:focus,
-.feedback-contact form button:focus
-.contact-us form button:active,
-.feedback-contact form button:active{
-  background-color: #dce300;
-  border: none;
-  color: #fff;
+.feedback-contact form button:focus .contact-us form button:active,
+.feedback-contact form button:active {
+    background-color: #dce300;
+    border: none;
+    color: #fff;
 }
+
 .contact-us form button:active,
 .feedback-contact form button:active {
-  border: none !important;
+    border: none !important;
 }
+
 .prices {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #f2f6fb;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f2f6fb;
 }
+
 .prices h1 {
-  font-family: "Futura PT Book";
-  margin-bottom: 20px;
-  font-size: 48px;
-  color: #5b626a;
-  text-transform: uppercase;
+    font-family: "Futura PT Book";
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: #5b626a;
+    text-transform: uppercase;
 }
+
 .prices h3 {
-  font-family: "Futura PT Demi";
-  font-size: 30px;
-  padding: 0 0 25px;
-  color: #5b626a;
+    font-family: "Futura PT Demi";
+    font-size: 30px;
+    padding: 0 0 25px;
+    color: #5b626a;
 }
+
 .prices .row-tables {
-  padding: 0 50px;
+    padding: 0 50px;
 }
+
 .prices thead tr {
-  background-color: #e6f0fd;
+    background-color: #e6f0fd;
 }
+
 .prices thead tr th {
-  text-align: center;
-  border-right: 1px solid #fff;
-  border-right: 1px solid #fff;
-  font-family: "Roboto";
-  border-color: #fff;
-  font-weight: 500;
-  color: #636e7c;
+    text-align: center;
+    border-right: 1px solid #fff;
+    border-right: 1px solid #fff;
+    font-family: "Roboto";
+    border-color: #fff;
+    font-weight: 500;
+    color: #636e7c;
 }
+
 .prices thead tr th:first-of-type {
-  text-align: left !important;
+    text-align: left !important;
 }
+
 .prices .table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: transparent;
+    background-color: transparent;
 }
+
 .prices .table-striped > tbody > tr:nth-of-type(odd):hover {
-  background-color: #eceeb9;
+    background-color: #eceeb9;
 }
+
 .prices .table-striped > tbody > tr:nth-of-type(even) {
-  background-color: #ebf0f5;
+    background-color: #ebf0f5;
 }
+
 .prices .table-striped > tbody > tr:nth-of-type(even):hover {
-  background-color: #eceeb9;
+    background-color: #eceeb9;
 }
+
 .prices table tr:hover {
-  background-color: #eceeb9;
+    background-color: #eceeb9;
 }
+
 .prices table tr td {
-  border-right: 1px solid #fff;
-  border-right: 1px solid #fff;
-  border-color: #fff;
-  font-family: "Roboto";
-  color: #636e7c;
+    border-right: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-color: #fff;
+    font-family: "Roboto";
+    color: #636e7c;
 }
+
 .prices table tr td:first-of-type {
-  text-align: left !important;
+    text-align: left !important;
 }
+
 .prices table tr td:hover {
-  background-color: #f7f9ac;
+    background-color: #f7f9ac;
 }
+
 .max-content {
-  max-width: 950px;
+    max-width: 950px;
 }
+
 .h3-price {
     padding-left: 50px !important;
 }
+
 .p-price {
     padding-left: 50px;
 }
+
 .p-price a {
     font-size: 20px;
     text-decoration: underline;
 }
+
 #result_div_id {
     margin-bottom: 10px;
     font-size: 20px;
 }
+
 #result_div_id p {
     padding: 10px 0px;
     font-family: "Futura PT Medium";
 }
-.razrabot { text-align: center;}
-.razrabot span{ display: inline-block; font-size: 14px; color: #ffffff}
+
+.razrabot {
+    text-align: center;
+}
+
+.razrabot span {
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff
+}
+
 .social {
     display: inline-block;
     text-decoration: none !important;
@@ -546,97 +655,117 @@ body {
     overflow: hidden;
     border-radius: 4px
 }
+
 .social:last-of-type {
     margin: 0 40px 0px 40px;
     width: 30px !important;
     height: 30px !important;
 }
+
 .social img {
     display: inline-block;
     width: 32px;
     height: 32px;
 }
-.social:last-of-type  img{
+
+.social:last-of-type img {
     width: 30px !important;
     height: 30px !important;
 }
+
 #calendar tr.first,
 #calendar tr.second {
-  background-color: #eceeb9 !important;
+    background-color: #eceeb9 !important;
 }
-.promo{
+
+.promo {
     background-color: #f2f6fb;
     padding: 20px 0 0 0;
 }
+
 .prices-rizo,
-.prices-calendars{
+.prices-calendars {
     padding-top: 20px;
 }
-.rizo-title{
+
+.rizo-title {
     background-color: #f2f6fb;
     margin: 0 auto;
     padding: 0 0 0 45px;
 }
-.rizo-slide img{
+
+.rizo-slide img {
     display: block;
     width: 100%;
     max-height: 287px;
 }
-.rizo-content{
+
+.rizo-content {
     color: #636e7c;
     font-size: 15px;
     margin: 0 auto;
-    min-height: 300px;    
+    min-height: 300px;
     padding: 0 25px;
 }
-.rizo-content p{
+
+.rizo-content p {
     width: 100%;
     vertical-align: top;
     display: inline-block;
 }
-.rizo-content span{
+
+.rizo-content span {
     display: block;
     text-align: justify;
 }
-.calendars-title{
+
+.calendars-title {
     background-color: #f2f6fb;
     margin: 0 auto;
     padding: 0 15px 10px 15px;
 }
-.head-p{
-  text-align: left;
+
+.head-p {
+    text-align: left;
 }
-.head-tel{
-  color: #fff;
-  font-family: "Futura PT Medium";
-  font-size: 20px;
+
+.head-tel {
+    color: #fff;
+    font-family: "Futura PT Medium";
+    font-size: 20px;
     padding: 10px 15px 0px 15px;
 }
+
 .head-tel:hover,
 .head-tel:focus,
-.head-tel:active{
+.head-tel:active {
     background-color: transparent;
 }
+
 .head-p span {
-  color: #dce300;
-  font-family: "Roboto";
-  font-size: 14px;
+    color: #dce300;
+    font-family: "Roboto";
+    font-size: 14px;
 }
+
 .head-p span:first-of-type {
-  width: 50px;
-  margin-right: 4px;
-  color: #565b5e;
+    width: 50px;
+    margin-right: 4px;
+    color: #565b5e;
 }
+
 .head-p a {
-  color: #dce300;
-  font-family: "Roboto";
-  font-size: 14px;
-  display: inline-block;
+    color: #dce300;
+    font-family: "Roboto";
+    font-size: 14px;
+    display: inline-block;
 }
-.header-info>ul>li{
+
+.header-info>ul>li {
     width: 50%;
 }
-.header-contacts{
+
+.header-contacts {
     margin: 0;
     display: -webkit-flex;
     display: -moz-flex;
@@ -650,6 +779,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .feedback,
 .feedback:hover,
 .feedback:active,
@@ -657,13 +787,14 @@ body {
 .contract,
 .contract:hover,
 .contract:active,
-.contract:focus{
+.contract:focus {
     background: transparent;
     border: none;
     outline: 0;
 }
+
 .feedback-title,
-.contract-title{
+.contract-title {
     display: inline-block;
     padding: 5px 35px;
     border-radius: 35px;
@@ -674,15 +805,18 @@ body {
     background-color: #3369e2;
     border-bottom: 4px solid #0033a6 !important;
 }
-.contract-title:hover{
+
+.contract-title:hover {
     color: #fcfcfc;
     text-decoration: none;
 }
+
 .header-contacts .feedback span,
-.contract-contacts .contract span{
+.contract-contacts .contract span {
     font-size: 15px;
 }
-.feedback-contact{
+
+.feedback-contact {
     display: none;
     z-index: 6;
     position: absolute;
@@ -690,29 +824,33 @@ body {
     top: 109px;
     left: 225px;
     padding-top: 15px;
-  padding-bottom: 40px;
-  background-color: #3369e2;
+    padding-bottom: 40px;
+    background-color: #3369e2;
     border-radius: 10px;
 }
-.feedback-contact h3{
+
+.feedback-contact h3 {
     font-family: "Futura PT Demi";
     font-size: 30px;
     padding: 0 20px 15px;
     color: #fafafa;
 }
-.feedback-contact form{
+
+.feedback-contact form {
     width: 400px;
     background-color: #f9fbfd;
     padding: 30px 40px;
     text-align: center;
 }
 
+
 /*
 
 Слайдер
 
 */
-.rizo-slider{
+
+.rizo-slider {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -723,17 +861,61 @@ body {
     -ms-flex-direction: row;
     -o-flex-direction: row;
     flex-direction: row;
-    -ms-align-items: flex-start;
-    align-items: flex-start;
+    -ms-align-items: center;
+    align-items: center;
     margin: 0 auto;
+    width: 80%;
 }
-.slider-nav{
-  width: 20%;
-  padding: 30px 0;
+
+.slider-nav {
+    width: 20%;
+    padding: 30px 0;
+    background-color: #0f0f0f;
 }
-.slider-nav img{
-  margin: 15px;
+
+.rizo-slider .slider-nav img {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 15px;
+    border: 5px solid #fff;
 }
-.slider-image{
-  width: 80%;
+.rizo-slider .slider-nav img:active,
+.rizo-slider .slider-nav img:hover,
+.rizo-slider .slider-nav img:focus {
+    border: 5px solid orange;
+}
+
+.slider-image {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.slider-image div {
+    width: 100%;
+    height: auto;
+    max-height: 626px;
+    min-height: 400px;
+    background-image: url('../img/sample-01.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover; 
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.slider-image div h3{
+    padding: 5 10 15;
+    background: rgba(91, 98, 106, 0.9);
+    color: #fff;
+    margin-top: auto;
 }
