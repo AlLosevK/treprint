@@ -792,7 +792,6 @@ body {
     border: none;
     outline: 0;
 }
-
 .feedback-title,
 .contract-title {
     display: inline-block;
@@ -805,13 +804,17 @@ body {
     background-color: #3369e2;
     border-bottom: 4px solid #0033a6 !important;
 }
+.feedback-title{
+    font-family: "Futura PT Book";
+    padding: 3px 17px;
+    font-size: 13px;
+}
 
 .contract-title:hover {
     color: #fcfcfc;
     text-decoration: none;
 }
 
-.header-contacts .feedback span,
 .contract-contacts .contract span {
     font-size: 15px;
 }
@@ -865,7 +868,7 @@ body {
     align-items: center;
     margin: 0 auto;
     width: 80%;
-    background-color: #0f0f0f;
+    background-color: #C0C5CD;
 }
 
 .rizo-slider .slider-nav img {
@@ -885,7 +888,7 @@ body {
 .slider-nav {
     width: 20%;
     padding: 30px 15px;
-    background-color: #0f0f0f;
+    background-color: #C0C5CD;
 } 
 .slider-nav .slick-prev{
     top: 10px;
