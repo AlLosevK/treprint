@@ -32,186 +32,191 @@
     </script>
 <body>
 <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) {(w[c] = w[c] || []).push(function () {try {w.yaCounter37668145 = new Ya.Metrika({id: 37668145, clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true, trackHash: true});}catch (e) {}});var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () {n.parentNode.insertBefore(s, n);};s.type = "text/javascript";s.async = true;s.src = "https://mc.yandex.ru/metrika/watch.js";if (w.opera == "[object Opera]") {d.addEventListener("DOMContentLoaded", f, false);}else {f();}})(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/37668145" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+<!-- /Yandex.Metrika counter --><div class="container-fluid">
+    <div class="row">
+        <div class="h_head"></div>
+    </div>
+</div>
+<section>
     <div class="container-fluid">
         <div class="row">
-            <div class="h_head"></div>
-        </div>
-    </div>
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <!--                                                                        <?php include('left-menu.php'); ?>-->
-                <div class="col-xs-3 col-lg-3 left-menu">
-                    <div class="logo text-right">
-                        <a href="https://allosevk.github.io/Treprint/"><img src="img/logo.png" alt=""></a>
-                    </div>
-                    <div class="nav-left">
-                        <ul>
-                            <li class="clearfix">
-                                <div class="nav-left-li third pull-right"> <span><img src="img/ico/rizograf.png" alt=""></span> <a href="index1.html">Ризография</a> </div>
-                            </li>
-                            <li class="clearfix">
-                                <div class="nav-left-li first pull-right"> <span><img src="img/ico/ico-left-1.png" alt=""></span> <a href="price.php#visitki">Визитки</a> </div>
-                            </li>
-                            <li class="clearfix">
-                                <div class="nav-left-li second pull-right"> <span><img src="img/ico/ico-left-2.png" alt=""></span> <a href="price.php#discont">Дисконтные карты</a> </div>
-                            </li>
-                            <li class="clearfix">
-                                <div class="nav-left-li eight pull-right"> <span><img src="img/ico/calendar.png" alt=""></span> <a href="calendars.html">Календари</a> </div>
-                            </li>
-                            <li class="clearfix">
-                                <div class="nav-left-li fourth pull-right"> <span><img src="img/ico/ico-left-4.png" alt=""></span> <a href="price.php#offset">Офсетная печать</a> </div>
-                            </li>
-                            <li class="clearfix">
-                                <div class="nav-left-li fifth pull-right"> <span><img src="img/ico/ico-left-5.png" alt=""></span> <a href="price.php#shir">Широкоформатная печать</a> </div>
-                            </li>
-                            <li class="clearfix">
-                                <div class="nav-left-li sixth pull-right"> <span><img src="img/ico/ico-left-6.png" alt=""></span> <a href="price.php#raspr">Распространение печатной продукции</a> </div>
-                            </li>
-                            <li class="clearfix">
-                                <div class="nav-left-li seventh pull-right text-center">
-                                    <a href="https://vk.com/treprint" target="_blank" class="social"><img src="img/vk_icon.png" alt="" /></a>
-                                    <a href="https://facebook.com/reprint78" target="_blank" class="social"><img src="img/facebook.png" alt="" /></a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+            <!--                                                                        <?php include('left-menu.php'); ?>-->
+            <div class="col-xs-3 col-lg-3 left-menu">
+                <div class="logo text-right">
+                    <a href="https://allosevk.github.io/Treprint/"><img src="img/logo.png" alt=""></a>
                 </div>
-                <div class="col-xs-9 col-lg-9 content">
-                    <!--                                                                                                              <?php include('nav.php'); ?>-->
-                    <div class="row header">
-                        <ul class="nav nav-pills nav-justified">
-                            <li class="header-info">
-                                <ul class="nav nav-pills nav-justified">
-                                    <li><a class="head-a" href="">Цены</a></li>
-                                    <li><a class="head-a" href="">Контакты</a></li>
-                                    <p class="head-p"> <span>Адрес:</span> <span>г.Санкт-Петербург, Шоссе Революции, 31</span> </p>
-                                    <p class="head-p"> <span>E-mail:</span> <a href="mailto:reprint.spb@gmail.com">reprint.spb@gmail.com</a> </p>
-                                </ul>
-                            </li>
-                            <li class="header-contacts"> <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a> <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a>
-                                <button class="feedback" type="button"> <span class="feedback-title">Обратная связь</span> </button>
-                            </li>
-                            <li class=header-price> <a href="" class="download-price">Скачать прайс-лист</a> </li>
-                        </ul>
-                    </div>
-                    <div class="feedback-contact">
-                        <h3>Остались вопросы?</h3>
-                        <form action="" method="POST" id="form">
-                            <div id="result_div_id"> </div>
-                            <input type="text" name="name" placeholder="Введите ваше имя" required="required">
-                            <input type="tel" name="phone" placeholder="Введите ваш телефон" required="required">
-                            <textarea name="question" placeholder="Текст вопроса" required="required"></textarea>
-                            <button type="button" onclick="AjaxFormRequest('result_div_id', 'form', 'mail.php')"><span><img src="img/ico/ico-download.png" alt=""></span><span>Отправить</span></button>
-                        </form>
-                    </div>
-                    <div class="row promo">
-                        <div class="rizo-slide clearfix col-xs-12 col-lg-12"> <img src="img/banner1.jpg" alt="Ризография"> </div>
-                    </div>
-                    <div class="row prices prices-calendars">
-                        <div class="max-content clearfix">
-                            <h2 class="text-center">Цены</h2>
-                            <div class="col-xs-12">
-                                <div class="row row-tables" id="calendar">
-                                    <div class="table-responsive">
-                                        <table class="table table-hover table-striped text-center">
-                                            <tbody>
-                                                <tr class="first">
-                                                    <td> Календари </td>
-                                                    <td> до 10 шт </td>
-                                                    <td> до 20 шт </td>
-                                                    <td> до 51 шт </td>
-                                                    <td> до 101 шт </td>
-                                                    <td> до 201 шт </td>
-                                                </tr>
-                                                <tr>
-                                                    <td> ТРИО&nbsp;</td>
-                                                    <td> 250 руб </td>
-                                                    <td> 200 руб </td>
-                                                    <td> 140 руб </td>
-                                                    <td> 110 руб </td>
-                                                    <td> 100 руб </td>
-                                                </tr>
-                                                <tr>
-                                                    <td> МОНО </td>
-                                                    <td> 200 руб </td>
-                                                    <td> 150 руб </td>
-                                                    <td> 100 руб </td>
-                                                    <td> 80 руб </td>
-                                                    <td> 70 руб </td>
-                                                </tr>
-                                                <tr>
-                                                    <td> &nbsp; </td>
-                                                    <td> &nbsp; </td>
-                                                    <td> &nbsp; </td>
-                                                    <td> &nbsp; </td>
-                                                    <td> &nbsp; </td>
-                                                    <td> &nbsp; </td>
-                                                </tr>
-                                                <tr class="second">
-                                                    <td> Календари </td>
-                                                    <td> 500 шт </td>
-                                                    <td> 1000 шт </td>
-                                                    <td> 2000 шт </td>
-                                                    <td> 3000 шт </td>
-                                                    <td> 5000 шт </td>
-                                                </tr>
-                                                <tr>
-                                                    <td> Календари карманные </td>
-                                                    <td> 3500 руб </td>
-                                                    <td> 4000 руб </td>
-                                                    <td> 4500 руб </td>
-                                                    <td> 6200 руб </td>
-                                                    <td> 9000 руб </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
+                <div class="nav-left">
+                    <ul>
+                        <li class="clearfix">
+                            <div class="nav-left-li third pull-right"> <span><img src="img/ico/rizograf.png" alt=""></span> <a href="index1.html">Ризография</a> </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="nav-left-li first pull-right"> <span><img src="img/ico/ico-left-1.png" alt=""></span> <a href="price.php#visitki">Визитки</a> </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="nav-left-li second pull-right"> <span><img src="img/ico/ico-left-2.png" alt=""></span> <a href="price.php#discont">Дисконтные карты</a> </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="nav-left-li eight pull-right"> <span><img src="img/ico/calendar.png" alt=""></span> <a href="calendars.html">Календари</a> </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="nav-left-li fourth pull-right"> <span><img src="img/ico/ico-left-4.png" alt=""></span> <a href="price.php#offset">Офсетная печать</a> </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="nav-left-li fifth pull-right"> <span><img src="img/ico/ico-left-5.png" alt=""></span> <a href="price.php#shir">Широкоформатная печать</a> </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="nav-left-li sixth pull-right"> <span><img src="img/ico/ico-left-6.png" alt=""></span> <a href="price.php#raspr">Распространение печатной продукции</a> </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="nav-left-li seventh pull-right text-center">
+                                <a href="https://vk.com/treprint" target="_blank" class="social"><img src="img/vk_icon.png" alt="" /></a>
+                                <a href="https://facebook.com/reprint78" target="_blank" class="social"><img src="img/facebook.png" alt="" /></a>
                             </div>
-                            <div class="col-xs-12 col-lg-12">
-                                <h2>Квартальный календарь «Трио» — эффективная реклама круглый год</h2>
-                                <p>Вы не знаете, где заказать <strong>изготовление трио календаря в СПб</strong>? Вы ищете исполнителя, в котором сочетаются профессионализм, качество, цена? Тогда воспользуйтесь услугами типографии RePrint, предлагающей выгодные услови сотрудничества и не только. </p>
-                                <h3>Почему календарь «Трио»</h3>
-                                <p>Квартальный календарь — это одна из наиболее популярных разновидностей полиграфической продукции. Внешне он представляет собой конструкцию из шпигеля (верхняя рекламная часть), подложки и трех календарных блоков. </p>
-                                <p> Кто их заказывает: </p>
-                                <ul>
-                                    <li>Компании, желающие провести рекламную кампанию себя и своей продукции, которая будет длиться целый год и не потребует дополнительных финансовых вложений.</li>
-                                    <li>Компании, которые формируют корпоративные подарки для своих клиентов и партнеров.</li>
-                                </ul>
-                                <p>Календарь «Трио» — это отличная возможность не только круглый год напоминать о себе, но и приносить пользу.</p>
-                                <h3>Причины сотрудничать с RePrint</h3>
-                                <p>Основная причина выбрать RePrint — возможность <strong>заказать календари «Трио» в СПб</strong>, имея готовый макет, или воспользоваться услугами наших дизайнеров и маркетологов. Ввиду экономической выгоды многие компании делают выбор в пользу данной продукции, поэтому важно выделиться на фоне конкурентов. Наша команда специализируется на создании такого продукта, который хочется повесить на стену и смотреть на него весь год.</p>
-                                <p>Клиентам предлагается широкий выбор материалов, изображений, печатных приемов. Наличие современного оборудования позволяет реализовывать любые идеи.</p>
-                                <p>Кроме квартальных календарей «Трио», наша типография изготавливает <strong>моно-календари</strong>, календари с окошком и подобную продукцию. Цена изготовления зависит от сложности макета и количества экземпляров. Для заказа звоните по телефону и приходите в офис на шоссе Революции. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--                                                             <?php include('nav-footer.php'); ?>-->
-                    <div class="row header">
-                        <ul class="nav nav-pills nav-justified">
-                            <li class="header-info">
-                                <ul class="nav nav-pills nav-justified">
-                                    <li><a class="head-a" href="">Цены</a></li>
-                                    <li><a class="head-a" href="">Контакты</a></li>
-                                    <p class="head-p"> <span>Адрес:</span> <span>г.Санкт-Петербург, Шоссе Революции, 31</span> </p>
-                                    <p class="head-p"> <span>E-mail:</span> <a href="mailto:reprint.spb@gmail.com">reprint.spb@gmail.com</a> </p>
-                                </ul>
-                            </li>
-                            <li class="header-contacts"> <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a> <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a>
-                                <div class="contract"> <a class="contract-title">Скачать договор</a> </div>
-                            </li>
-                            <li class=header-price> <a href="" class="download-price">Скачать прай-слист</a> </li>
-                        </ul>
-                        <div class="razrabot"><span target="_blank">Убедительно просим Вас проверять все макеты на наличие ошибок и неточностей. После отправки в печать, претензии по макетам не принимаются.</span> </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-    </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/common.js"></script>
+            <div class="col-xs-9 col-lg-9 content">
+                <!--                                                                                                              <?php include('nav.php'); ?>-->
+                <div class="row header">
+                    <ul class="nav nav-pills nav-justified">
+                        <li class="header-info">
+                            <ul class="nav nav-pills nav-justified">
+                                <li><a class="head-a" href="">Цены</a></li>
+                                <li><a class="head-a" href="">Контакты</a></li>
+                                <p class="head-p"> <span>Адрес:</span> <span>г.Санкт-Петербург, Шоссе Революции, 31</span> </p>
+                                <p class="head-p"> <span>E-mail:</span> <a href="mailto:reprint.spb@gmail.com">reprint.spb@gmail.com</a> </p>
+                            </ul>
+                        </li>
+                        <li class="header-contacts"> <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a> <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a>
+                            <button class="feedback" type="button"> <span class="feedback-title">Обратная связь</span> </button>
+                        </li>
+                        <li class=header-price> <a href="" class="download-price">Скачать прайс-лист</a> </li>
+                    </ul>
+                </div>
+                <div class="feedback-contact">
+                    <h3>Остались вопросы?</h3>
+                    <form action="" method="POST" id="form">
+                        <div id="result_div_id"> </div>
+                        <input type="text" name="name" placeholder="Введите ваше имя" required="required">
+                        <input type="tel" name="phone" placeholder="Введите ваш телефон" required="required">
+                        <textarea name="question" placeholder="Текст вопроса" required="required"></textarea>
+                        <button type="button" onclick="AjaxFormRequest('result_div_id', 'form', 'mail.php')"><span><img src="img/ico/ico-download.png" alt=""></span><span>Отправить</span></button>
+                    </form>
+                </div>
+                <div class="row promo">
+                    <div class="rizo-slide clearfix col-xs-12 col-lg-12">
+                        <h1 class="rizo-slide__title">Календари по выгодным ценам</h1>
+                        <h2 class="rizo-slide__about">Макет и доставка бесплатно при заказе от 100 шт</h2>
+                        <img src="img/ico-1.png" alt="Трио-календарь">
+                        <img src="img/ico-2.png" alt="Моно-календарь">
+                        <img src="img/ico-3.png" alt="Цена">
+                    </div>
+                </div>
+                <div class="row prices prices-calendars">
+                    <div class="max-content clearfix">
+                        <h2 class="text-center">Цены</h2>
+                        <div class="col-xs-12">
+                            <div class="row row-tables" id="calendar">
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-striped text-center">
+                                        <tbody>
+                                            <tr class="first">
+                                                <td> Календари </td>
+                                                <td> до 10 шт </td>
+                                                <td> до 20 шт </td>
+                                                <td> до 51 шт </td>
+                                                <td> до 101 шт </td>
+                                                <td> до 201 шт </td>
+                                            </tr>
+                                            <tr>
+                                                <td> ТРИО&nbsp;</td>
+                                                <td> 250 руб </td>
+                                                <td> 200 руб </td>
+                                                <td> 140 руб </td>
+                                                <td> 110 руб </td>
+                                                <td> 100 руб </td>
+                                            </tr>
+                                            <tr>
+                                                <td> МОНО </td>
+                                                <td> 200 руб </td>
+                                                <td> 150 руб </td>
+                                                <td> 100 руб </td>
+                                                <td> 80 руб </td>
+                                                <td> 70 руб </td>
+                                            </tr>
+                                            <tr>
+                                                <td> &nbsp; </td>
+                                                <td> &nbsp; </td>
+                                                <td> &nbsp; </td>
+                                                <td> &nbsp; </td>
+                                                <td> &nbsp; </td>
+                                                <td> &nbsp; </td>
+                                            </tr>
+                                            <tr class="second">
+                                                <td> Календари </td>
+                                                <td> 500 шт </td>
+                                                <td> 1000 шт </td>
+                                                <td> 2000 шт </td>
+                                                <td> 3000 шт </td>
+                                                <td> 5000 шт </td>
+                                            </tr>
+                                            <tr>
+                                                <td> Календари карманные </td>
+                                                <td> 3500 руб </td>
+                                                <td> 4000 руб </td>
+                                                <td> 4500 руб </td>
+                                                <td> 6200 руб </td>
+                                                <td> 9000 руб </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-lg-12">
+                            <h2>Квартальный календарь «Трио» — эффективная реклама круглый год</h2>
+                            <p>Вы не знаете, где заказать <strong>изготовление трио календаря в СПб</strong>? Вы ищете исполнителя, в котором сочетаются профессионализм, качество, цена? Тогда воспользуйтесь услугами типографии RePrint, предлагающей выгодные услови сотрудничества и не только. </p>
+                            <h3>Почему календарь «Трио»</h3>
+                            <p>Квартальный календарь — это одна из наиболее популярных разновидностей полиграфической продукции. Внешне он представляет собой конструкцию из шпигеля (верхняя рекламная часть), подложки и трех календарных блоков. </p>
+                            <p> Кто их заказывает: </p>
+                            <ul>
+                                <li>Компании, желающие провести рекламную кампанию себя и своей продукции, которая будет длиться целый год и не потребует дополнительных финансовых вложений.</li>
+                                <li>Компании, которые формируют корпоративные подарки для своих клиентов и партнеров.</li>
+                            </ul>
+                            <p>Календарь «Трио» — это отличная возможность не только круглый год напоминать о себе, но и приносить пользу.</p>
+                            <h3>Причины сотрудничать с RePrint</h3>
+                            <p>Основная причина выбрать RePrint — возможность <strong>заказать календари «Трио» в СПб</strong>, имея готовый макет, или воспользоваться услугами наших дизайнеров и маркетологов. Ввиду экономической выгоды многие компании делают выбор в пользу данной продукции, поэтому важно выделиться на фоне конкурентов. Наша команда специализируется на создании такого продукта, который хочется повесить на стену и смотреть на него весь год.</p>
+                            <p>Клиентам предлагается широкий выбор материалов, изображений, печатных приемов. Наличие современного оборудования позволяет реализовывать любые идеи.</p>
+                            <p>Кроме квартальных календарей «Трио», наша типография изготавливает <strong>моно-календари</strong>, календари с окошком и подобную продукцию. Цена изготовления зависит от сложности макета и количества экземпляров. Для заказа звоните по телефону и приходите в офис на шоссе Революции. </p>
+                        </div>
+                    </div>
+                </div>
+                <!--                                                             <?php include('nav-footer.php'); ?>-->
+                <div class="row header">
+                    <ul class="nav nav-pills nav-justified">
+                        <li class="header-info">
+                            <ul class="nav nav-pills nav-justified">
+                                <li><a class="head-a" href="">Цены</a></li>
+                                <li><a class="head-a" href="">Контакты</a></li>
+                                <p class="head-p"> <span>Адрес:</span> <span>г.Санкт-Петербург, Шоссе Революции, 31</span> </p>
+                                <p class="head-p"> <span>E-mail:</span> <a href="mailto:reprint.spb@gmail.com">reprint.spb@gmail.com</a> </p>
+                            </ul>
+                        </li>
+                        <li class="header-contacts"> <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a> <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a>
+                            <div class="contract"> <a class="contract-title">Скачать договор</a> </div>
+                        </li>
+                        <li class=header-price> <a href="" class="download-price">Скачать прай-слист</a> </li>
+                    </ul>
+                    <div class="razrabot"><span target="_blank">Убедительно просим Вас проверять все макеты на наличие ошибок и неточностей. После отправки в печать, претензии по макетам не принимаются.</span> </div>
+                </div>
+            </div>
+        </div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
 </body>
 
 </html>
