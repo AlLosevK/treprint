@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html lang="ru">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=0, maximum-scale=0, user-scalable=no">-->
-    <meta name="keywords" content="срочная печать, цифровая печать, офсетная печать, типография печать, печать визиток спб" />
-    <meta name="description" content="Любой вид печати рекламной продукции. Собственный штат дизайнеров. Доступные цены">
-    <title>Типография RePrint Санкт-Петербург. Ризография, офсетная, цифровая и широкоформатная печать по низким ценам.</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link href="libs/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="css/fonts/roboto.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/media.css" rel="stylesheet">
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<div id="fb-root"></div>
-<script>
-    (function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.6";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-    </script>
+<?php include('head.php'); ?>
 <body>
 <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) {(w[c] = w[c] || []).push(function () {try {w.yaCounter37668145 = new Ya.Metrika({id: 37668145, clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true, trackHash: true});}catch (e) {}});var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () {n.parentNode.insertBefore(s, n);};s.type = "text/javascript";s.async = true;s.src = "https://mc.yandex.ru/metrika/watch.js";if (w.opera == "[object Opera]") {d.addEventListener("DOMContentLoaded", f, false);}else {f();}})(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/37668145" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter --><div class="container-fluid">
@@ -40,75 +9,13 @@
 <section>
     <div class="container-fluid">
         <div class="row">
-            <!--                                                                        <?php include('left-menu.php'); ?>-->
-            <div class="col-xs-3 col-lg-3 left-menu">
-                <div class="logo text-right">
-                    <a href="https://allosevk.github.io/Treprint/"><img src="img/logo.png" alt=""></a>
-                </div>
-                <div class="nav-left">
-                    <ul>
-                        <li class="clearfix">
-                            <div class="nav-left-li third pull-right"> <span><img src="img/ico/rizograf.png" alt=""></span> <a href="index1.html">Ризография</a> </div>
-                        </li>
-                        <li class="clearfix">
-                            <div class="nav-left-li first pull-right"> <span><img src="img/ico/ico-left-1.png" alt=""></span> <a href="price.php#visitki">Визитки</a> </div>
-                        </li>
-                        <li class="clearfix">
-                            <div class="nav-left-li second pull-right"> <span><img src="img/ico/ico-left-2.png" alt=""></span> <a href="price.php#discont">Дисконтные карты</a> </div>
-                        </li>
-                        <li class="clearfix">
-                            <div class="nav-left-li eight pull-right"> <span><img src="img/ico/calendar.png" alt=""></span> <a href="calendars.html">Календари</a> </div>
-                        </li>
-                        <li class="clearfix">
-                            <div class="nav-left-li fourth pull-right"> <span><img src="img/ico/ico-left-4.png" alt=""></span> <a href="price.php#offset">Офсетная печать</a> </div>
-                        </li>
-                        <li class="clearfix">
-                            <div class="nav-left-li fifth pull-right"> <span><img src="img/ico/ico-left-5.png" alt=""></span> <a href="price.php#shir">Широкоформатная печать</a> </div>
-                        </li>
-                        <li class="clearfix">
-                            <div class="nav-left-li sixth pull-right"> <span><img src="img/ico/ico-left-6.png" alt=""></span> <a href="price.php#raspr">Распространение печатной продукции</a> </div>
-                        </li>
-                        <li class="clearfix">
-                            <div class="nav-left-li seventh pull-right text-center">
-                                <a href="https://vk.com/treprint" target="_blank" class="social"><img src="img/vk_icon.png" alt="" /></a>
-                                <a href="https://facebook.com/reprint78" target="_blank" class="social"><img src="img/facebook.png" alt="" /></a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <?php include('left-menu.php'); ?>
             <div class="col-xs-9 col-lg-9 content">
-                <!--                                                                                                              <?php include('nav.php'); ?>-->
-                <div class="row header">
-                    <ul class="nav nav-pills nav-justified">
-                        <li class="header-info">
-                            <ul class="nav nav-pills nav-justified">
-                                <li><a class="head-a" href="">Цены</a></li>
-                                <li><a class="head-a" href="">Контакты</a></li>
-                                <p class="head-p"> <span>Адрес:</span> <span>г.Санкт-Петербург, Шоссе Революции, 31</span> </p>
-                                <p class="head-p"> <span>E-mail:</span> <a href="mailto:reprint.spb@gmail.com">reprint.spb@gmail.com</a> </p>
-                            </ul>
-                        </li>
-                        <li class="header-contacts"> <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a> <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a>
-                            <button class="feedback" type="button"> <span class="feedback-title">Обратная связь</span> </button>
-                        </li>
-                        <li class=header-price> <a href="" class="download-price">Скачать прайс-лист</a> </li>
-                    </ul>
-                </div>
-                <div class="feedback-contact">
-                    <h3>Остались вопросы?</h3>
-                    <form action="" method="POST" id="form">
-                        <div id="result_div_id"> </div>
-                        <input type="text" name="name" placeholder="Введите ваше имя" required="required">
-                        <input type="tel" name="phone" placeholder="Введите ваш телефон" required="required">
-                        <textarea name="question" placeholder="Текст вопроса" required="required"></textarea>
-                        <button type="button" onclick="AjaxFormRequest('result_div_id', 'form', 'mail.php')"><span><img src="img/ico/ico-download.png" alt=""></span><span>Отправить</span></button>
-                    </form>
-                </div>
+                <?php include('nav.php'); ?>
                 <div class="row promo">
-                    <div class="rizo-slide clearfix col-xs-12 col-lg-12">
-                        <h1 class="rizo-slide__title">Календари по выгодным ценам</h1>
-                        <h2 class="rizo-slide__about">Макет и доставка бесплатно при заказе от 100 шт</h2>
+                    <div class="calend-slide clearfix col-xs-12 col-lg-12">
+                        <h1 class="calend-slide__title">Календари по выгодным ценам</h1>
+                        <h2 class="calend-slide__about">Макет и доставка бесплатно при заказе от 100 шт</h2>
                         <img src="img/ico-1.png" alt="Трио-календарь">
                         <img src="img/ico-2.png" alt="Моно-календарь">
                         <img src="img/ico-3.png" alt="Цена">
@@ -193,24 +100,7 @@
                         </div>
                     </div>
                 </div>
-                <!--                                                             <?php include('nav-footer.php'); ?>-->
-                <div class="row header">
-                    <ul class="nav nav-pills nav-justified">
-                        <li class="header-info">
-                            <ul class="nav nav-pills nav-justified">
-                                <li><a class="head-a" href="">Цены</a></li>
-                                <li><a class="head-a" href="">Контакты</a></li>
-                                <p class="head-p"> <span>Адрес:</span> <span>г.Санкт-Петербург, Шоссе Революции, 31</span> </p>
-                                <p class="head-p"> <span>E-mail:</span> <a href="mailto:reprint.spb@gmail.com">reprint.spb@gmail.com</a> </p>
-                            </ul>
-                        </li>
-                        <li class="header-contacts"> <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a> <a class="head-tel" href="tel:+7 (812) 330 03 04">+7 (812) 330 03 04</a>
-                            <div class="contract"> <a class="contract-title">Скачать договор</a> </div>
-                        </li>
-                        <li class=header-price> <a href="" class="download-price">Скачать прай-слист</a> </li>
-                    </ul>
-                    <div class="razrabot"><span target="_blank">Убедительно просим Вас проверять все макеты на наличие ошибок и неточностей. После отправки в печать, претензии по макетам не принимаются.</span> </div>
-                </div>
+                <?php include('nav-footer.php'); ?>
             </div>
         </div>
 </section>
