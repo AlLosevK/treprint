@@ -25,7 +25,7 @@
             <li class="clearfix">
                 <div class="nav-left-li eight pull-right">
                     <span><img src="img/ico/calendar.png" alt=""></span>
-                    <a href="price.php#calendar">Календари</a>
+                    <a href="calendar.php">Календари</a>
                 </div>
             </li>
             <li class="clearfix">

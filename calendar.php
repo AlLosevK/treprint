@@ -13,13 +13,7 @@
             <div class="col-xs-9 col-lg-9 content">
                 <?php include('nav.php'); ?>
                 <div class="row promo">
-                    <div class="calend-slide clearfix col-xs-12 col-lg-12">
-                        <h1 class="calend-slide__title">Календари по выгодным ценам</h1>
-                        <h2 class="calend-slide__about">Макет и доставка бесплатно при заказе от 100 шт</h2>
-                        <img src="img/ico-1.png" alt="Трио-календарь">
-                        <img src="img/ico-2.png" alt="Моно-календарь">
-                        <img src="img/ico-3.png" alt="Цена">
-                    </div>
+                    <div class="calend-slide clearfix col-xs-12 col-lg-12"></div>
                 </div>
                 <div class="row prices prices-calendars">
                     <div class="max-content clearfix">

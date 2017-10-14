@@ -531,6 +531,11 @@ body {
     border: none !important;
 }
 
+.outline{
+    width: 100%;
+    margin: 0 0 5% 0;
+}
+
 .prices {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -727,31 +732,13 @@ body {
 
 .calend-slide{
     display: block;
-    width: 100%;
-    max-height: 287px;
-    background-image: url("../img/bg-slide.jpg");
-    padding: 20px 35px;
-    text-align: right;
+    background-image: url("../img/Calendar%20banner.PNG");
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-position: 50% 50%;
+    padding: 15% 0;
 }
-
-.calend-slide img{
-    padding: 0 4%;
-}
-
-.calend-slide__title{
-    font-family: "Futura PT Demi";
-    font-size: 37px;
-    margin: 0 0 10px 0;
-    color: #202629;
-}
-
-.calend-slide__about{
-    font-family: "Futura PT Book";
-    font-size: 28px;
-    margin: 0 0 15px 0;
-    color: #f71b1b;
-}
-
 .head-p {
     text-align: left;
 }

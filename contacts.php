@@ -46,6 +46,7 @@
                             </div>
                         </div>
                         <div class="col-xs-6">
+                            <img src="img/kartasayta.png" alt="Схема расположения объектов" class="outline">
                             <div class="map">
                                 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=eLinI-utSpNfU2HVP7Fjr96-u8s_XYoW&width=445&height=445&lang=ru_RU&sourceType=constructor&scroll=true"></script>
                             </div>
