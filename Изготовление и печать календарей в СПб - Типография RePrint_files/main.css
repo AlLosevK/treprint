@@ -709,29 +709,35 @@ body {
   -ms-flex-direction: row;
   flex-direction: row;
   justify-content: space-between;
+  -ms-align-items: stretch;
   -ms-align-items: center;
   align-items: center;
   margin-bottom: 30px;
+  padding: 0 30px;
 }
 
 .price-nav__item {
-  padding: 20px;
-  margin: 20px;
+  padding: 10px;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   justify-content: space-between;
-  -ms-align-items: stretch;
-  align-items: stretch;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   background: #fff;
   border-radius: 15px;
   cursor: pointer;
   text-decoration: none;
   color: #333333;
-  height: 100%;
+  height: auto;
+  max-width: 16.6666%;
+  height: 205px;
 }
 
 .price-nav__item:hover {
@@ -739,17 +745,27 @@ body {
   color: #333;
 }
 
-
-.price-nav__item--promo {
-  padding: 30px;
-  margin: 5px;
-  background-color: #f6ebbf;
-}
-
 .price-nav__item img {
   height: auto;
   width: 100%;
-  border-radius: 15px;
+  max-height: 50%;
+}
+
+
+.price-nav__item--promo {
+  background-color: #f6ebbf;
+  min-width: 30%;
+  height: 230px;
+}
+
+.price-nav__item--promo img {
+  width: 25%;
+  max-height: 100%;
+}
+
+.price-nav__item--promo div {
+  width: 50%;
+  padding: 0 20px;
 }
 
 .price-descr {
@@ -763,6 +779,55 @@ body {
 
 .price-descr .col-xs-5 {
   text-align: center;
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.price-descr__content button:hover {
+  color: yellow;
+}
+
+.price-descr__content button {
+  border: none;
+  background: #C55B50;
+  padding: 5px 20px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+
+#trio .price-descr .col-xs-5 img,
+#trio-maxi .price-descr .col-xs-5 img {
+  width: auto;
+}
+
+.background {
+  display: none;
+}
+
+.background.is-active {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #000;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.promo.contact-us {
+  display: none;
+}
+
+.promo.contact-us.is-active {
+  position: fixed;
+  z-index: 2;
+  transform: translate(-50%, 0);
+  top: 25%;
+  left: 50%;
+}
+
+.price-descr .col-xs-5 img {
+  width: 100%;
 }
 
 .rizo-title {

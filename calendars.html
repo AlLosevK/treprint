@@ -59,6 +59,18 @@
 </head>
 
 <body>
+  <div class="background">
+  </div>
+  <div class="contact-us promo">
+    <form action="" method="POST" id="form">
+      <div id="result_div_id">
+      </div>
+      <input name="name" placeholder="Введите ваше имя" required="required" type="text">
+      <input name="phone" placeholder="Введите ваш телефон" required="required" type="tel">
+      <textarea name="question" placeholder="Текст вопроса" required="required"></textarea>
+      <button type="button" onclick="AjaxFormRequest('result_div_id', 'form', 'mail.php')"><span><img src="img/ico/ico-download.png" alt=""></span><span>Отправить</span></button>
+    </form>
+  </div>
   <div id="fb-root">
     <div id="extwaiimpotscp" style="display:none" v="{8cda" f="ZXpoalpHRTVZMlUyTFRjNE9UTXROR1kwTnkxaFl6Y3dMV0UyTlRJeE5XTmxZekk0T0gwPQ==" q="7b4a9b1a" c="71.60" i="80.92" u="0.855" s="bcba796b" w="false" m="BMe=" vn="0tren"></div>
   </div>
@@ -262,19 +274,21 @@
                 </a>
                 <a href="#trio" class="price-nav__item price-nav__item--promo">
                   <img src="img/Trio.png" alt="Календарь трио">
-                  <h4>Календари ТРИО</h4>
-                  <p>Рассчитать</p>
-                </a>
-                <a href="#trio-maxi" class="price-nav__item">
+                  <div>
+                    <h4>Календари ТРИО</h4>
+                    <p>Рассчитать</p>
+                  </div>
                   <img src="img/Trio_Maxi.png" alt="Календарь трио макси">
-                  <h4>Календари ТРИО Макси</h4>
-                  <p>Рассчитать</p>
                 </a>
                 <a href="#other" class="price-nav__item">
                   <img src="img/Domik.png" alt="Календарь-домик">
                   <h4>Другие виды календарей</h4>
                   <p>Рассчитать</p>
-
+                </a>
+                <a href="#other" class="price-nav__item">
+                  <img src="img/pencil.jpg" alt="Календарь-домик">
+                  <h4>Другие виды календарей</h4>
+                  <p>Рассчитать</p>
                 </a>
               </div>
 
