@@ -4,7 +4,7 @@ function AjaxFormRequest(result_id,form_id,url) {
         type:     "POST", //Тип запроса
         dataType: "html", //Тип данных
         data: jQuery("#"+form_id).serialize(),
-        success: function(response) { 
+        success: function(response) {
             yaCounter40969514.reachGoal('submit_contact');
             document.getElementById(result_id).innerHTML = response;
     },
@@ -90,21 +90,11 @@ $(document).ready(function (){
     });
 });
 
-
-//SLIDER
-
-$('.slider-image').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '.slider-nav'
-});
-$('.slider-nav').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  asNavFor: '.slider-image',
-  centerMode: true,
-  focusOnSelect: true,
-  vertical: true
+$(document).ready(function (){
+  $(".popup").on("click", function(){
+    $(".background, .promo").addClass("is-active");
+  });
+  $(".background").on("click", function(){
+    $(".background, .promo").removeClass("is-active");
+  });
 });

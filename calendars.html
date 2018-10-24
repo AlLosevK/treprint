@@ -65,8 +65,7 @@
     <form action="" method="POST" id="form">
       <div id="result_div_id">
       </div>
-      <input name="name" placeholder="Введите ваше имя" required="required" type="text">
-      <input name="phone" placeholder="Введите ваш телефон" required="required" type="tel">
+      <input name="phone" placeholder="Введите ваш телефон или E-mail" required="required">
       <textarea name="question" placeholder="Текст вопроса" required="required"></textarea>
       <button type="button" onclick="AjaxFormRequest('result_div_id', 'form', 'mail.php')"><span><img src="img/ico/ico-download.png" alt=""></span><span>Отправить</span></button>
     </form>
@@ -74,9 +73,7 @@
   <div id="fb-root">
     <div id="extwaiimpotscp" style="display:none" v="{8cda" f="ZXpoalpHRTVZMlUyTFRjNE9UTXROR1kwTnkxaFl6Y3dMV0UyTlRJeE5XTmxZekk0T0gwPQ==" q="7b4a9b1a" c="71.60" i="80.92" u="0.855" s="bcba796b" w="false" m="BMe=" vn="0tren"></div>
   </div>
-  <script type="text/javascript" async="" src="%D0%98%D0%B7%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%20%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%B5%D0%B9%20%D0%B2%20%D0%A1%D0%9F%D0%B1%20-%20%D0%A2%D0%B8%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%20RePrint_files/watch.js"></script>
-  <script type="text/javascript" async="" src="%D0%98%D0%B7%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%20%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%B5%D0%B9%20%D0%B2%20%D0%A1%D0%9F%D0%B1%20-%20%D0%A2%D0%B8%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%20RePrint_files/watch.js"></script>
-  <script id="facebook-jssdk" src="%D0%98%D0%B7%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%20%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%B5%D0%B9%20%D0%B2%20%D0%A1%D0%9F%D0%B1%20-%20%D0%A2%D0%B8%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%20RePrint_files/sdk.js"></script>
+  <script type="text/javascript" async="" src="js/common.js"></script>
   <script>
     (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -254,7 +251,7 @@
           <div class="row promo">
 
 
-            <img src="%D0%98%D0%B7%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%20%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%B5%D0%B9%20%D0%B2%20%D0%A1%D0%9F%D0%B1%20-%20%D0%A2%D0%B8%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%20RePrint_files/Bannery_dlya_sayta-004.jpg" width="100%">
+            <img src="img/banner2.jpg" width="100%">
 
 
 
@@ -287,7 +284,7 @@
                 </a>
                 <a href="#other" class="price-nav__item">
                   <img src="img/pencil.jpg" alt="Календарь-домик">
-                  <h4>Другие виды календарей</h4>
+                  <h4>Дизайн</h4>
                   <p>Рассчитать</p>
                 </a>
               </div>
@@ -305,7 +302,7 @@
                       <li>- выбор цвета пружинки и ригеля</li>
                       <li>- печать с обложкой и без</li>
                     </ul>
-                    <button type="button"> Заказать </button>
+                    <button class="popup" type="button"> Заказать </button>
                   </div>
                 </div>
                 <div class="row row-tables">
@@ -313,60 +310,60 @@
                     <table class="table table-hover table-striped text-center">
                       <thead>
                         <tr class="first">
-                          <td> перекидные календари  </td>
-                          <td> размер  </td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
+                          <td class="popup"> перекидные календари  </td>
+                          <td class="popup"> размер  </td>
+                          <td class="popup"></td>
+                          <td class="popup"></td>
+                          <td class="popup"></td>
+                          <td class="popup"></td>
+                          <td class="popup"></td>
+                          <td class="popup"></td>
+                          <td class="popup"></td>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td> вертикальный на ригеле </td>
-                          <td> квадрат 200х200 </td>
-                          <td> квадрат 300х300 </td>
-                          <td> А5	</td>
-                          <td> А4	</td>
-                          <td> А3	</td>
-                          <td> квадрат 340х340 </td>
-                          <td> 340х490 </td>
-                          <td> 350х600 </td>
+                          <td class="popup"> вертикальный на ригеле </td>
+                          <td class="popup"> квадрат 200х200 </td>
+                          <td class="popup"> квадрат 300х300 </td>
+                          <td class="popup"> А5	</td>
+                          <td class="popup"> А4	</td>
+                          <td class="popup"> А3	</td>
+                          <td class="popup"> квадрат 340х340 </td>
+                          <td class="popup"> 340х490 </td>
+                          <td class="popup"> 350х600 </td>
                         </tr>
                         <tr>
-                          <td> горизонтальный на ригеле </td>
-                          <td> квадрат 200х200 </td>
-                          <td> квадрат 300х300 </td>
-                          <td> А5	</td>
-                          <td> А4	</td>
-                          <td> А3	</td>
-                          <td> квадрат 340х340 </td>
-                          <td> 340х490 </td>
+                          <td class="popup"> горизонтальный на ригеле </td>
+                          <td class="popup"> квадрат 200х200 </td>
+                          <td class="popup"> квадрат 300х300 </td>
+                          <td class="popup"> А5	</td>
+                          <td class="popup"> А4	</td>
+                          <td class="popup"> А3	</td>
+                          <td class="popup"> квадрат 340х340 </td>
+                          <td class="popup"> 340х490 </td>
                         </tr>
                         <tr>
-                          <td> вертикальный на люверсе  </td>
-                          <td> квадрат 200х200 </td>
-                          <td> квадрат 300х300 </td>
-                          <td> А5	</td>
-                          <td> А4	</td>
-                          <td> А3	</td>
-                          <td> квадрат 340х340 </td>
-                          <td> 340х490 </td>
-                          <td> 350х600 </td>
+                          <td class="popup"> вертикальный на люверсе  </td>
+                          <td class="popup"> квадрат 200х200 </td>
+                          <td class="popup"> квадрат 300х300 </td>
+                          <td class="popup"> А5	</td>
+                          <td class="popup"> А4	</td>
+                          <td class="popup"> А3	</td>
+                          <td class="popup"> квадрат 340х340 </td>
+                          <td class="popup"> 340х490 </td>
+                          <td class="popup"> 350х600 </td>
                         </tr>
                         <tr>
-                          <td> горизонатльный на люверсе  </td>
-                          <td> квадрат 200х200 </td>
-                          <td> квадрат 300х300 </td>
-                          <td> А5	</td>
-                          <td> А4	</td>
-                          <td> А3	</td>
-                          <td> квадрат 340х340 </td>
-                          <td> 340х490 </td>
-                          <td> 350х600 </td>
+                          <td class="popup"> горизонатльный на люверсе  </td>
+                          <td class="popup"> квадрат 200х200 </td>
+                          <td class="popup"> квадрат 300х300 </td>
+                          <td class="popup"> А5	</td>
+                          <td class="popup"> А4	</td>
+                          <td class="popup"> А3	</td>
+                          <td class="popup"> квадрат 340х340 </td>
+                          <td class="popup"> 340х490 </td>
+                          <td class="popup"> 350х600 </td>
                         </tr>
                       </tbody>
                     </table>
@@ -385,7 +382,7 @@
                       <li>- скругление углов</li>
                       <li>- возможна печать в размере 86*54</li>
                     </ul>
-                    <button type="button"> Заказать </button>
+                    <button class="popup" type="button"> Заказать </button>
                   </div>
                 </div>
                 <div class="row row-tables">
@@ -393,42 +390,42 @@
                     <table class="table table-hover table-striped text-center">
                       <thead>
                         <tr>
-                          <td> карманные календари 100x70 </td>
-                          <td> 500 шт </td>
-                          <td> 1000 шт </td>
-                          <td> 2000 шт </td>
-                          <td> 3000 шт </td>
-                          <td> 5000 шт </td>
-                          <td> 8000 шт </td>
-                          <td> 10000 шт </td>
-                          <td> 15000 шт </td>
-                          <td> 20000 шт </td>
+                          <td class="popup"> карманные календари 100x70 </td>
+                          <td class="popup"> 500 шт </td>
+                          <td class="popup"> 1000 шт </td>
+                          <td class="popup"> 2000 шт </td>
+                          <td class="popup"> 3000 шт </td>
+                          <td class="popup"> 5000 шт </td>
+                          <td class="popup"> 8000 шт </td>
+                          <td class="popup"> 10000 шт </td>
+                          <td class="popup"> 15000 шт </td>
+                          <td class="popup"> 20000 шт </td>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td> без ламинации</td>
-                          <td> 1060 руб </td>
-                          <td> 1390 руб </td>
-                          <td> 1590 руб </td>
-                          <td> 2670 руб </td>
-                          <td> 3845 руб </td>
-                          <td> 5980 руб </td>
-                          <td> 6730 руб </td>
-                          <td> 9584 руб </td>
-                          <td> 12436 руб </td>
+                          <td class="popup"> без ламинации</td>
+                          <td class="popup"> 1060 руб </td>
+                          <td class="popup"> 1390 руб </td>
+                          <td class="popup"> 1590 руб </td>
+                          <td class="popup"> 2670 руб </td>
+                          <td class="popup"> 3845 руб </td>
+                          <td class="popup"> 5980 руб </td>
+                          <td class="popup"> 6730 руб </td>
+                          <td class="popup"> 9584 руб </td>
+                          <td class="popup"> 12436 руб </td>
                         </tr>
                         <tr>
-                          <td> с ламинацией </td>
-                          <td> 1690 руб	</td>
-                          <td> 1940 руб	</td>
-                          <td> 2567 руб	</td>
-                          <td> 3862 руб	</td>
-                          <td> 5950 руб	</td>
-                          <td> 8890 руб	</td>
-                          <td> 10632 руб </td>
-                          <td> 14418 руб </td>
-                          <td> 18740 руб </td>
+                          <td class="popup"> с ламинацией </td>
+                          <td class="popup"> 1690 руб	</td>
+                          <td class="popup"> 1940 руб	</td>
+                          <td class="popup"> 2567 руб	</td>
+                          <td class="popup"> 3862 руб	</td>
+                          <td class="popup"> 5950 руб	</td>
+                          <td class="popup"> 8890 руб	</td>
+                          <td class="popup"> 10632 руб </td>
+                          <td class="popup"> 14418 руб </td>
+                          <td class="popup"> 18740 руб </td>
                         </tr>
                       </tbody>
                     </table>
@@ -449,7 +446,7 @@
                       <li>- шпигель + 3 рекламных поля</li>
                       <li>- выбор цвета люверса и пружины</li>
                     </ul>
-                    <button type="button"> Заказать </button>
+                    <button class="popup" type="button"> Заказать </button>
                   </div>
                 </div>
                 <div class="row row-tables">
@@ -457,36 +454,36 @@
                     <table class="table table-hover table-striped text-center">
                       <thead>
                         <tr class="first">
-                          <td> трио стандарт </td>
-                          <td> 5 шт </td>
-                          <td> 10 шт </td>
-                          <td> 15 шт </td>
-                          <td> 20 шт </td>
-                          <td> 30 шт </td>
-                          <td> 50 шт </td>
-                          <td> 100 шт </td>
-                          <td> 200 шт </td>
-                          <td> 300 шт </td>
-                          <td> 500 шт </td>
+                          <td class="popup"> трио стандарт </td>
+                          <td class="popup"> 5 шт </td>
+                          <td class="popup"> 10 шт </td>
+                          <td class="popup"> 15 шт </td>
+                          <td class="popup"> 20 шт </td>
+                          <td class="popup"> 30 шт </td>
+                          <td class="popup"> 50 шт </td>
+                          <td class="popup"> 100 шт </td>
+                          <td class="popup"> 200 шт </td>
+                          <td class="popup"> 300 шт </td>
+                          <td class="popup"> 500 шт </td>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td> цена за тираж </td>
-                          <td> 1450 руб </td>
-                          <td> 2300 руб </td>
-                          <td> 2998 руб </td>
-                          <td> 3320 руб </td>
-                          <td> 4534 руб </td>
-                          <td> 7000 руб	</td>
-                          <td> 11000 руб </td>
-                          <td> 20000 руб </td>
-                          <td> 28762 руб </td>
-                          <td> 43947 руб </td>
+                          <td class="popup"> цена за тираж </td>
+                          <td class="popup"> 1450 руб </td>
+                          <td class="popup"> 2300 руб </td>
+                          <td class="popup"> 2998 руб </td>
+                          <td class="popup"> 3320 руб </td>
+                          <td class="popup"> 4534 руб </td>
+                          <td class="popup"> 7000 руб	</td>
+                          <td class="popup"> 11000 руб </td>
+                          <td class="popup"> 20000 руб </td>
+                          <td class="popup"> 28762 руб </td>
+                          <td class="popup"> 43947 руб </td>
                         </tr>
                       </tbody>
                     </table>
-                    <span class="col-xs-12"><b>дополнительная обработка: ламинация, уф-лак, тиснение фольгой (написать не в таблице а под ценами в строчку выделенно)</b></span>
+                    <span class="col-xs-12"><b>дополнительная обработка: ламинация, уф-лак, тиснение фольгой</b></span>
                   </div>
                 </div>
               </div>
@@ -504,7 +501,7 @@
                       <li>- увеличенное рекламное поле</li>
                       <li>- выбор цвета люверса и пружины</li>
                     </ul>
-                    <button type="button"> Заказать </button>
+                    <button class="popup" type="button"> Заказать </button>
                   </div>
                 </div>
                 <div class="row row-tables">
@@ -512,36 +509,36 @@
                     <table class="table table-hover table-striped text-center">
                       <thead>
                         <tr class="first">
-                          <td> трио макси </td>
-                          <td> 5 шт </td>
-                          <td> 10 шт </td>
-                          <td> 15 шт </td>
-                          <td> 20 шт </td>
-                          <td> 30 шт </td>
-                          <td> 50 шт </td>
-                          <td> 100 шт </td>
-                          <td> 200 шт </td>
-                          <td> 300 шт </td>
-                          <td> 500 шт </td>
+                          <td class="popup"> трио макси </td>
+                          <td class="popup"> 5 шт </td>
+                          <td class="popup"> 10 шт </td>
+                          <td class="popup"> 15 шт </td>
+                          <td class="popup"> 20 шт </td>
+                          <td class="popup"> 30 шт </td>
+                          <td class="popup"> 50 шт </td>
+                          <td class="popup"> 100 шт </td>
+                          <td class="popup"> 200 шт </td>
+                          <td class="popup"> 300 шт </td>
+                          <td class="popup"> 500 шт </td>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td> цена за тираж </td>
-                          <td> 1740 руб </td>
-                          <td> 2580 руб </td>
-                          <td> 3320 руб </td>
-                          <td> 3974 руб </td>
-                          <td> 5480 руб </td>
-                          <td> 8612 руб	</td>
-                          <td> 13358 руб </td>
-                          <td> 23180 руб </td>
-                          <td> 31960 руб </td>
-                          <td> 54200 руб </td>
+                          <td class="popup"> цена за тираж </td>
+                          <td class="popup"> 1740 руб </td>
+                          <td class="popup"> 2580 руб </td>
+                          <td class="popup"> 3320 руб </td>
+                          <td class="popup"> 3974 руб </td>
+                          <td class="popup"> 5480 руб </td>
+                          <td class="popup"> 8612 руб	</td>
+                          <td class="popup"> 13358 руб </td>
+                          <td class="popup"> 23180 руб </td>
+                          <td class="popup"> 31960 руб </td>
+                          <td class="popup"> 54200 руб </td>
                         </tr>
                       </tbody>
                     </table>
-                    <span class="col-xs-12"><b>дополнительная обработка: ламинация, уф-лак, тиснение фольгой (написать не в таблице а под ценами в строчку выделенно)</b></span>
+                    <span class="col-xs-12"><b>дополнительная обработка: ламинация, уф-лак, тиснение фольгой</b></span>
                   </div>
                 </div>
               </div>
@@ -560,7 +557,7 @@
                       <li>- нестандартные календари</li>
                       <li>- разработка индивидуального дизайна</li>
                     </ul>
-                    <button type="button"> Заказать </button>
+                    <button class="popup" type="button"> Заказать </button>
                   </div>
                 </div>
               </div>
@@ -648,9 +645,9 @@
       </div>
     </div>
   </section>
-  <script src="%D0%98%D0%B7%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%20%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%B5%D0%B9%20%D0%B2%20%D0%A1%D0%9F%D0%B1%20-%20%D0%A2%D0%B8%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%20RePrint_files/jquery.js"></script>
-  <script src="%D0%98%D0%B7%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%20%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%B5%D0%B9%20%D0%B2%20%D0%A1%D0%9F%D0%B1%20-%20%D0%A2%D0%B8%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%20RePrint_files/bootstrap.js"></script>
-  <script src="%D0%98%D0%B7%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%20%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%B5%D0%B9%20%D0%B2%20%D0%A1%D0%9F%D0%B1%20-%20%D0%A2%D0%B8%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%20RePrint_files/common.js"></script>
+  <script src="libs/jquery/jquery-2.2.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/common.js"></script>
 
 
 </body>
