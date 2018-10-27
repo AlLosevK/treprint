@@ -5,7 +5,6 @@ function AjaxFormRequest(result_id,form_id,url) {
         dataType: "html", //Тип данных
         data: jQuery("#"+form_id).serialize(),
         success: function(response) {
-            yaCounter40969514.reachGoal('submit_contact');
             document.getElementById(result_id).innerHTML = response;
     },
     error: function(response) { //Если ошибка
