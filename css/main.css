@@ -775,11 +775,21 @@ body {
 .price-descr ul {
   padding: 0;
   list-style: none;
+  font-size: 17px;
 }
 
-.price-descr .col-xs-5 {
+.price-descr__title {
+  font-size: 28px;
+}
+.price-descr__title,
+.price-descr__subtitle {
+  color: #C55B50;
+}
+
+.price-descr .col-xs-5,
+.price-descr .col-xs-3 {
   text-align: center;
-  max-height: 350px;
+  max-height: 400px;
   overflow: hidden;
 }
 
@@ -791,8 +801,14 @@ body {
   border: none;
   background: #C55B50;
   padding: 5px 20px;
-  border-radius: 15px;
+  border-radius: 25px;
+  font-size: 21px;
   color: #fff;
+  margin-bottom: 20px;
+}
+
+.price-descr__img {
+  height: 400px;
 }
 
 
