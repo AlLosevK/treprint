@@ -16,7 +16,6 @@ $message = '
         <title style="color: #">Заявка с сайта</title>
     </head>
     <body>
-        <p>Имя: '.$name.'</p>
         <p>Телефон: '.$phone.'</p>
         <p>Вопрос: '.$question.'</p>
     </body>
