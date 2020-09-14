@@ -1,5 +1,5 @@
 <?php
-$to  = "<reprint.spb@gmail.com>";
+$to  = "<al.losev.k@gmail.com>";
 
 $subject = "Заявка с сайта";
 $name = $_POST['name'];
@@ -13,7 +13,7 @@ if(empty($subject) or empty($phone)) {
 $message = '
 <html>
     <head>
-        <title>Заявка с сайта</title>
+        <title style="color: #">Заявка с сайта</title>
     </head>
     <body>
         <p>Имя: '.$name.'</p>

@@ -16,7 +16,7 @@
 
   <link href="%D0%98%D0%B7%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%20%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%B5%D0%B9%20%D0%B2%20%D0%A1%D0%9F%D0%B1%20-%20%D0%A2%D0%B8%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%20RePrint_files/bootstrap.css"
     rel="stylesheet">
-  <link href="%D0%98%D0%B7%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%20%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%B5%D0%B9%20%D0%B2%20%D0%A1%D0%9F%D0%B1%20-%20%D0%A2%D0%B8%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%20RePrint_files/roboto.css"
+  <link href="css/fonts/roboto.css"
     rel="stylesheet">
   <link href="css/main.css"
     rel="stylesheet">
@@ -62,7 +62,7 @@
   <div class="background">
   </div>
   <div class="contact-us promo">
-    <form action="" method="POST" id="form">
+    <form action="mail.php" method="POST" id="form">
       <div id="result_div_id">
       </div>
       <input name="phone" placeholder="Введите ваш телефон или E-mail" required="required">
@@ -265,12 +265,12 @@
                     <h4>Календари ТРИО "Стандарт"</h4>
                     <p>Рассчитать</p>
                   </div>
-                </a>
-                <a href="#trio-maxi" class="price-nav__item">
                   <img src="img/Trio_Maxi.png" alt="Календарь трио макси">
+                </a>
+                <!-- <a href="#trio-maxi" class="price-nav__item">
                   <h4>Календари ТРИО "Макси"</h4>
                   <p>Рассчитать</p>
-                </a>
+                </a> -->
                 <a href="#pocket" class="price-nav__item">
                   <img src="img/Karmanny.png" alt="Карманный календарь">
                   <h4>Карманные календари</h4>
@@ -281,12 +281,22 @@
                   <h4>Перекидные календарь</h4>
                   <p>Рассчитать</p>
                 </a>
+                <a href="#mono" class="price-nav__item">
+                  <img src="img/mono.png" alt="Календарь-домик">
+                  <h4>Календири "Моно"</h4>
+                  <p>Рассчитать</p>
+                </a>
+                <a href="#other" class="price-nav__item">
+                  <img src="img/Domik.png" alt="Календарь-домик">
+                  <h4>Другие виды календарей</h4>
+                  <p>Рассчитать</p>
+                </a>
               </div>
 
-              <div id="trio" class="col-xs-12">
+              <div id="trio" class="price-item col-xs-12">
                 <div class="price-descr row">
-                  <h2 class="price-descr__title col-xs-12">Календарь - ТРИО "Стандарт"</h4>
                   <div class="price-descr__content col-xs-9">
+                    <h2 class="price-descr__title">Календарь - ТРИО "Стандарт"</h4>
                     <ul>
                       <li> <b>Формат в раскрытом виде:</b> 30x82 см. </li>
                       <li> <b>Шапка, подложка:</b> Глянцевый картон 300г/м </li>
@@ -334,14 +344,14 @@
                         </tr>
                       </tbody>
                     </table>
-                    <span class="col-xs-12"><b>дополнительная обработка: ламинация, уф-лак, тиснение фольгой</b></span>
+
                   </div>
                 </div>
               </div>
-              <div id="trio-maxi" class="col-xs-12">
+              <div id="trio-maxi" class="price-item col-xs-12">
                 <div class="price-descr row">
-                  <h2 class="price-descr__title col-xs-12">Календарь - ТРИО "Макси"</h4>
                   <div class="price-descr__content col-xs-9">
+                    <h2 class="price-descr__title">Календарь - ТРИО "Макси"</h4>
                     <ul>
                       <li> <b>Формат в раскрытом виде:</b> 30x82 см. увеличенное рекламное поле</li>
                       <li> <b>Шапка, подложка:</b> Глянцевый картон 300г/м </li>
@@ -352,7 +362,7 @@
                     <button class="popup" type="button"> Заказать </button>
                   </div>
                   <div class="col-xs-3">
-                    <img src="img/Trio.png" alt="">
+                    <img src="img/Trio_Maxi.png" alt="">
                   </div>
                 </div>
                 <div class="row row-tables">
@@ -389,14 +399,14 @@
                         </tr>
                       </tbody>
                     </table>
-                    <span class="col-xs-12"><b>дополнительная обработка: ламинация, уф-лак, тиснение фольгой</b></span>
+
                   </div>
                 </div>
               </div>
-              <div id="pocket" class="col-xs-12">
+              <div id="pocket" class="price-item col-xs-12">
                 <div class="price-descr row">
-                  <h2 class="price-descr__title col-xs-12">Календарь "Карманный"</h4>
                   <div class="price-descr__content col-xs-9">
+                    <h2 class="price-descr__title">Календарь "Карманный"</h4>
                     <ul>
                       <li><b>Формат кадендаря:</b> 86х54 мм или 70х100 мм</li>
                       <li><b>Материал календаря:</b> Глянцевый картон 300г/м</li>
@@ -414,7 +424,7 @@
                     <table class="table table-hover table-striped text-center">
                       <thead>
                         <tr>
-                          <td class="popup"> карманные календари 100x70 </td>
+                          <td class="popup"> карманные календари (100x70 мм) </td>
                           <td class="popup"> 500 шт </td>
                           <td class="popup"> 1000 шт </td>
                           <td class="popup"> 2000 шт </td>
@@ -456,10 +466,10 @@
                   </div>
                 </div>
               </div>
-              <div id="desk" class="col-xs-12">
+              <div id="desk" class="price-item col-xs-12">
                 <div class="price-descr row">
-                  <h2 class="price-descr__title col-xs-12">Календарь "Перекидной".</h2>
                   <div class="price-descr__content col-xs-9">
+                    <h2 class="price-descr__title">Календарь "Перекидной".</h2>
                     <ul>
                       <li> <b>Различные форматы календаря</b> </li>
                       <li> <b>Материал календаря</b> от 115 до 300 г/м</li>
@@ -470,6 +480,115 @@
                   </div>
                   <div class="col-xs-3">
                     <img src="img/Perekidnoy.png" alt="">
+                  </div>
+                </div>
+                <div class="row row-tables">
+                  <div class="table-responsive">
+                    <table class="table table-hover table-striped text-center">
+                      <thead>
+                        <tr class="first">
+                          <td class="popup"> A3 вертикальный (297х420 мм) </td>
+                          <td class="popup"> 5 шт </td>
+                          <td class="popup"> 10 шт </td>
+                          <td class="popup"> 15 шт </td>
+                          <td class="popup"> 20 шт </td>
+                          <td class="popup"> 30 шт </td>
+                          <td class="popup"> 50 шт </td>
+                          <td class="popup"> 100 шт </td>
+                          <td class="popup"> 200 шт </td>
+                          <td class="popup"> 300 шт </td>
+                          <td class="popup"> 500 шт </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="popup"> цена за тираж </td>
+                          <td class="popup"> 1950 руб </td>
+                          <td class="popup"> 3040 руб </td>
+                          <td class="popup"> 4290 руб </td>
+                          <td class="popup"> 5400 руб </td>
+                          <td class="popup"> 7500 руб </td>
+                          <td class="popup"> 11890 руб </td>
+                          <td class="popup"> 22450 руб	</td>
+                          <td class="popup"> 41600 руб </td>
+                          <td class="popup"> 61600 руб </td>
+                          <td class="popup"> 90650 руб </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+                </div>
+              </div>
+              <div id="mono" class="price-item col-xs-12">
+                <div class="price-descr row">
+                  <div class="price-descr__content col-xs-9">
+                    <h2 class="price-descr__title">Печать и изготовление календарей "Моно".</h2>
+                    <ul>
+                      <li><b>Формат в раскрытом виде:</b> 32x50 см, одно рекламное поле.</li>
+                      <li><b>Шапка, подложка:</b> Глянцевый картон 300г/м</li>
+                      <li><b>Календарный блок:</b> цвет - серый. Размер увеличенный, со статическим курсором.</li>
+                      <li><b>Варианты дополнительной обработки:</b> Ламинация, сплошной лак, тиснение фольгой</li>
+                    </ul>
+                    <h4 class="price-descr__subtitle">Дизайн в подарок при покупке от 100шт</h4>
+                    <button class="popup" type="button"> Заказать </button>
+                  </div>
+                  <div class="col-xs-3">
+                    <img src="img/Mono.png" alt="">
+                  </div>
+                </div>
+                <div class="row row-tables">
+                  <div class="table-responsive">
+                    <table class="table table-hover table-striped text-center">
+                      <thead>
+                        <tr class="first">
+                          <td class="popup"> Календари "Моно" </td>
+                          <td class="popup"> 5 шт </td>
+                          <td class="popup"> 10 шт </td>
+                          <td class="popup"> 15 шт </td>
+                          <td class="popup"> 20 шт </td>
+                          <td class="popup"> 30 шт </td>
+                          <td class="popup"> 50 шт </td>
+                          <td class="popup"> 100 шт </td>
+                          <td class="popup"> 200 шт </td>
+                          <td class="popup"> 300 шт </td>
+                          <td class="popup"> 500 шт </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="popup"> цена за тираж </td>
+                          <td class="popup"> 1056 руб </td>
+                          <td class="popup"> 1270 руб </td>
+                          <td class="popup"> 1650 руб </td>
+                          <td class="popup"> 1925 руб </td>
+                          <td class="popup"> 2770 руб </td>
+                          <td class="popup"> 4180 руб	</td>
+                          <td class="popup"> 8000 руб </td>
+                          <td class="popup"> 15150 руб </td>
+                          <td class="popup"> 21840 руб </td>
+                          <td class="popup"> 34230 руб </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+                </div>
+              </div>
+              <div id="other" class="price-item col-xs-12">
+                <div class="price-descr row">
+                  <div class="price-descr__content col-xs-9">
+                    <h2 class="price-descr__title">Другие виды календарей.</h2>
+                    <ul>
+                      <li><b>- календари домик</b></li>
+                      <li><b>- календари плакаты</b></li>
+                      <li><b>- нестандартные календари</b></li>
+                      <li><b>- разработка индивидуального дизайна</b></li>
+                    </ul>
+                    <button class="popup" type="button"> Заказать </button>
+                  </div>
+                  <div class="col-xs-3">
+                    <img src="img/Domik.png" alt="">
                   </div>
                 </div>
               </div>

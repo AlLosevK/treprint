@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&display=swap');
+
 body {
     min-width: 1220px;
     width: 100%;
@@ -550,6 +552,18 @@ body {
     background-color: #f2f6fb;
 }
 
+.price-item#trio {
+  border: none;
+}
+.price-item {
+  border-top: 3px solid #dddddd;
+  padding-top: 40px;
+}
+
+.prices .max-content {
+  margin: 0 auto;
+}
+
 .prices h1 {
     font-family: "Futura PT Book";
     margin-bottom: 20px;
@@ -567,6 +581,7 @@ body {
 
 .prices .row-tables {
     padding: 0 50px;
+    margin-bottom: 40px;
 }
 
 .prices thead tr {
@@ -745,10 +760,30 @@ body {
   color: #333;
 }
 
+.price-nav__item:hover h4,
+.price-nav__item:hover p {
+  text-decoration: none;
+}
+
+.price-nav__item h4,
+.price-nav__item p {
+  color: #201f7b;
+  text-decoration: underline;
+}
+
 .price-nav__item img {
   height: auto;
   width: 100%;
   max-height: 50%;
+  margin: 0 auto;
+}
+
+.price-nav__item[href^="#desk"] img {
+  width: 73%;
+}
+
+.price-nav__item[href^="#mono"] img {
+  width: 46%;
 }
 
 
@@ -776,21 +811,55 @@ body {
   padding: 0;
   list-style: none;
   font-size: 17px;
+  font-family: "Roboto";
+  margin-bottom: 20px;
+}
+
+.price-descr__title,
+.price-descr__subtitle {
+  color: #C55B50;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  font-family: "Manrope";
 }
 
 .price-descr__title {
   font-size: 28px;
+  margin-bottom: 20px;
 }
-.price-descr__title,
+
 .price-descr__subtitle {
-  color: #C55B50;
+  font-size: 23px;
+  margin-bottom: 40px;
 }
 
 .price-descr .col-xs-5,
 .price-descr .col-xs-3 {
   text-align: center;
-  max-height: 400px;
+  height: 300px;
   overflow: hidden;
+}
+
+.price-descr .col-xs-3 img {
+  height: auto;
+  max-height: 100%;
+}
+
+#trio .price-descr .col-xs-3 img {
+  width: 56%;
+}
+
+#pocket .price-descr .col-xs-3 img {
+  height: 52%;
+}
+
+#desk .price-descr .col-xs-3 img {
+  height: 80%;
+}
+
+#other .price-descr .col-xs-3 img {
+  height: 49%;
 }
 
 .price-descr__content button:hover {
@@ -808,14 +877,9 @@ body {
 }
 
 .price-descr__img {
-  height: 400px;
+  height: 300px;
 }
 
-
-#trio .price-descr .col-xs-5 img,
-#trio-maxi .price-descr .col-xs-5 img {
-  width: auto;
-}
 
 .background {
   width: 100%;

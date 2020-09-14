@@ -54,7 +54,7 @@
 }
 @font-face {
     font-family: 'Roboto';
-    src: local('Roboto Italic'), local('Roboto-Italic'), url('robotoitalic.woff2') format('woff2'), url('robotoitalic.woff') format('woff';
+    src: local('Roboto Italic'), local('Roboto-Italic'), url('robotoitalic.woff2') format('woff2'), url('robotoitalic.woff') format('woff');
     font-weight: 400;
     font-style: italic;
 }
